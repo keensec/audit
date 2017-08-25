@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+	<item flag="id">
+		<command><![CDATA[command]]></command>
+		<value><![CDATA[result]]></value>
+	</item>
+	<item flag="1">
+		<command><![CDATA[cat /etc/shadow | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="2">
+		<command><![CDATA[cat /etc/passwd | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_serialnumberd:*:58:58:Serial Number Daemon:/var/empty:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/empty:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/empty:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:OS X Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false]]></value>
+	</item>
+	<item flag="3">
+		<command><![CDATA[cat /etc/passwd | grep -v -e '^ *#' -e '^$';cat /etc/shadow | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_serialnumberd:*:58:58:Serial Number Daemon:/var/empty:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/empty:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/empty:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:OS X Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false]]></value>
+	</item>
+	<item flag="4">
+		<command><![CDATA[cat /etc/ssh/sshd_config | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[AuthorizedKeysFile	.ssh/authorized_keys
+KerberosAuthentication yes
+KerberosOrLocalPasswd yes
+KerberosTicketCleanup yes
+GSSAPIAuthentication yes
+GSSAPICleanupCredentials yes
+UsePAM yes
+AcceptEnv LANG LC_*
+Subsystem	sftp	/usr/libexec/sftp-server]]></value>
+	</item>
+	<item flag="5">
+		<command><![CDATA[cat /etc/pam.d/passwd | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[auth       required       pam_permit.so
+account    required       pam_opendirectory.so
+password   required       pam_opendirectory.so
+session    required       pam_permit.so]]></value>
+	</item>
+	<item flag="6">
+		<command><![CDATA[cat /etc/login.defs | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="7">
+		<command><![CDATA[cat /etc/pam.d/login | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[auth       optional       pam_krb5.so use_kcminit
+auth       optional       pam_ntlm.so try_first_pass
+auth       optional       pam_mount.so try_first_pass
+auth       required       pam_opendirectory.so try_first_pass
+account    required       pam_nologin.so
+account    required       pam_opendirectory.so
+password   required       pam_opendirectory.so
+session    required       pam_launchd.so
+session    required       pam_uwtmp.so
+session    optional       pam_mount.so]]></value>
+	</item>
+	<item flag="8">
+		<command><![CDATA[cat /etc/securetty | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="9">
+		<command><![CDATA[ps -elf | grep telnet]]></command>
+		<value><![CDATA[    0 30992 30990     4006   0  31  0  2432804   1900 -      S+                  0 ttys001    0:00.00 grep telnet       5:01PM]]></value>
+	</item>
+	<item flag="10">
+		<command><![CDATA[ssh -V; cat /etc/ssh/sshd_config | grep -i 'Protocol' ]]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="11">
+		<command><![CDATA[echo 待定]]></command>
+		<value><![CDATA[待定]]></value>
+	</item>
+	<item flag="12">
+		<command><![CDATA[grep ^+: /etc/passwd /etc/shadow /etc/group]]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="13">
+		<command><![CDATA[ls -l /etc/passwd /etc/shadow /etc/group]]></command>
+		<value><![CDATA[-rw-r--r--  1 root  wheel  2600 Jul 31  2016 /etc/group
+-rw-r--r--  1 root  wheel  5925 Feb 26  2016 /etc/passwd]]></value>
+	</item>
+	<item flag="14">
+		<command><![CDATA[cat /etc/ssh/sshd_config | grep -v -e '^ *#' -e '^$' | grep -i 'permitRootlogin']]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="15">
+		<command><![CDATA[cat /etc/passwd | awk -F: '{print $1}' | grep -v -e '^ *#' -e '^$';echo; [ -f /var/adm/loginlog ] && echo '存在/var/adm/loginlog文件' || echo '/var/adm/loginlog 文件不存在' ]]></command>
+		<value><![CDATA[nobody
+root
+daemon
+_uucp
+_taskgated
+_networkd
+_installassistant
+_lp
+_postfix
+_scsd
+_ces
+_mcxalr
+_appleevents
+_geod
+_serialnumberd
+_devdocs
+_sandbox
+_mdnsresponder
+_ard
+_www
+_eppc
+_cvs
+_svn
+_mysql
+_sshd
+_qtss
+_cyrus
+_mailman
+_appserver
+_clamav
+_amavisd
+_jabber
+_appowner
+_windowserver
+_spotlight
+_tokend
+_securityagent
+_calendar
+_teamsserver
+_update_sharing
+_installer
+_atsserver
+_ftp
+_unknown
+_softwareupdate
+_coreaudiod
+_screensaver
+_locationd
+_trustevaluationagent
+_timezone
+_lda
+_cvmsroot
+_usbmuxd
+_dovecot
+_dpaudio
+_postgres
+_krbtgt
+_kadmin_admin
+_kadmin_changepw
+_devicemgr
+_webauthserver
+_netbios
+_warmd
+_dovenull
+_netstatistics
+_avbdeviced
+_krb_krbtgt
+_krb_kadmin
+_krb_changepw
+_krb_kerberos
+_krb_anonymous
+_assetcache
+_coremediaiod
+_launchservicesd
+_iconservices
+_distnote
+_nsurlsessiond
+_nsurlstoraged
+_displaypolicyd
+_astris
+_krbfast
+_gamecontrollerd
+_mbsetupuser
+_ondemand
+_xserverdocs
+_wwwproxy
+
+/var/adm/loginlog 文件不存在]]></value>
+	</item>
+	<item flag="16">
+		<command><![CDATA[cat /etc/pam.d/passwd]]></command>
+		<value><![CDATA[# passwd: auth account
+auth       required       pam_permit.so
+account    required       pam_opendirectory.so
+password   required       pam_opendirectory.so
+session    required       pam_permit.so]]></value>
+	</item>
+	<item flag="17">
+		<command><![CDATA[ls -l /etc/passwd /etc/shadow /etc/group]]></command>
+		<value><![CDATA[-rw-r--r--  1 root  wheel  2600 Jul 31  2016 /etc/group
+-rw-r--r--  1 root  wheel  5925 Feb 26  2016 /etc/passwd]]></value>
+	</item>
+	<item flag="18">
+		<command><![CDATA[cat  /etc/bashrc | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[if [ -z "$PS1" ]; then
+   return
+fi
+PS1='\h:\W \u\$ '
+shopt -s checkwinsize
+[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"]]></value>
+	</item>
+	<item flag="19">
+		<command><![CDATA[cat /etc/syslog.conf | grep -v -e '^ *#' -e '^$';echo;last ]]></command>
+		<value><![CDATA[install.*						@127.0.0.1:32376
+*usbmux* /dev/null
+auth.*                                @127.0.0.1:60762
+
+jimmy     ttys001                   Fri Aug 25 14:58   still logged in
+jimmy     ttys001                   Fri Aug 25 13:44 - 13:44  (00:00)
+jimmy     ttys002                   Fri Aug 25 13:16 - 13:16  (00:00)
+jimmy     ttys001                   Fri Aug 25 11:06 - 11:06  (00:00)
+jimmy     ttys003                   Thu Aug 24 16:07 - 16:07  (00:00)
+jimmy     ttys001                   Thu Aug 24 15:24 - 15:24  (00:00)
+jimmy     ttys003                   Thu Aug 24 14:24 - 14:24  (00:00)
+jimmy     ttys001                   Thu Aug 24 14:15 - 14:15  (00:00)
+jimmy     ttys001                   Thu Aug 24 11:37 - 11:37  (00:00)
+jimmy     ttys001                   Thu Aug 24 10:23 - 10:23  (00:00)
+jimmy     ttys001                   Wed Aug 23 18:55 - 18:55  (00:00)
+jimmy     ttys001                   Wed Aug 23 16:41 - 16:41  (00:00)
+jimmy     ttys001                   Wed Aug 23 16:20 - 16:20  (00:00)
+jimmy     ttys001                   Wed Aug 23 16:11 - 16:11  (00:00)
+jimmy     ttys000                   Wed Aug 23 16:09   still logged in
+jimmy     ttys004                   Wed Aug 23 15:53 - 15:53  (00:00)
+jimmy     ttys002                   Wed Aug 23 12:36 - 12:36  (00:00)
+jimmy     ttys000                   Wed Aug 23 12:26 - 12:26  (00:00)
+jimmy     ttys000                   Wed Aug 23 11:28 - 11:28  (00:00)
+jimmy     ttys001                   Wed Aug 23 10:51 - 10:51  (00:00)
+jimmy     ttys002                   Wed Aug 23 10:12 - 10:12  (00:00)
+jimmy     ttys000                   Wed Aug 23 10:01 - 10:01  (00:00)
+jimmy     ttys000                   Tue Aug 22 17:33 - 17:33  (00:00)
+jimmy     ttys000                   Tue Aug 22 17:27 - 17:27  (00:00)
+jimmy     console                   Tue Aug 22 17:27   still logged in
+jimmy     ttys001                   Tue Aug 22 16:17 - 16:17  (00:00)
+jimmy     ttys003                   Tue Aug 22 15:53 - 15:53  (00:00)
+jimmy     ttys003                   Tue Aug 22 15:52 - 15:52  (00:00)
+jimmy     ttys001                   Tue Aug 22 15:52 - 15:52  (00:00)
+jimmy     ttys004                   Tue Aug 22 11:30 - 11:30  (00:00)
+jimmy     ttys003                   Tue Aug 22 11:11 - 11:11  (00:00)
+jimmy     ttys002                   Tue Aug 22 11:08 - 11:08  (00:00)
+jimmy     ttys001                   Tue Aug 22 10:57 - 10:57  (00:00)
+jimmy     ttys000                   Tue Aug 22 10:57 - 10:57  (00:00)
+jimmy     ttys002                   Tue Aug 22 10:57 - 10:57  (00:00)
+jimmy     ttys003                   Tue Aug 22 10:28 - 10:28  (00:00)
+jimmy     ttys002                   Tue Aug 22 10:28 - 10:28  (00:00)
+jimmy     ttys000                   Tue Aug 22 10:24 - 10:24  (00:00)
+jimmy     ttys000                   Tue Aug 22 09:44 - 09:44  (00:00)
+jimmy     ttys006                   Mon Aug 21 17:23 - 17:23  (00:00)
+jimmy     ttys007                   Mon Aug 21 17:03 - 17:03  (00:00)
+jimmy     ttys006                   Mon Aug 21 16:56 - 16:56  (00:00)
+jimmy     ttys005                   Mon Aug 21 16:17 - 16:17  (00:00)
+jimmy     ttys004                   Mon Aug 21 16:15 - 16:15  (00:00)
+jimmy     ttys003                   Mon Aug 21 16:14 - 16:14  (00:00)
+jimmy     ttys001                   Mon Aug 21 14:40 - 14:40  (00:00)
+jimmy     ttys000                   Mon Aug 21 14:39 - 14:39  (00:00)
+jimmy     ttys003                   Mon Aug 21 10:06 - 10:06  (00:00)
+jimmy     ttys003                   Mon Aug 21 09:47 - 09:47  (00:00)
+jimmy     ttys001                   Sun Aug 20 16:43 - 16:43  (00:00)
+jimmy     ttys001                   Sun Aug 20 12:06 - 12:06  (00:00)
+jimmy     ttys000                   Sun Aug 20 12:05 - 12:05  (00:00)
+jimmy     ttys002                   Sat Aug 19 23:35 - 23:35  (00:00)
+jimmy     ttys000                   Sat Aug 19 20:48 - 20:48  (00:00)
+jimmy     ttys000                   Sat Aug 19 20:48 - 20:48  (00:00)
+jimmy     ttys000                   Sat Aug 19 20:32 - 20:32  (00:00)
+jimmy     ttys000                   Sat Aug 19 17:53 - 17:53  (00:00)
+jimmy     ttys000                   Sat Aug 19 17:44 - 17:44  (00:00)
+jimmy     ttys003                   Sat Aug 19 17:44 - 17:44  (00:00)
+jimmy     ttys000                   Sat Aug 19 17:42 - 17:42  (00:00)
+jimmy     ttys004                   Sat Aug 19 17:42 - 17:42  (00:00)
+jimmy     ttys005                   Sat Aug 19 17:41 - 17:41  (00:00)
+jimmy     ttys004                   Sat Aug 19 17:40 - 17:40  (00:00)
+jimmy     ttys006                   Sat Aug 19 15:39 - 15:39  (00:00)
+jimmy     ttys003                   Sat Aug 19 15:22 - 15:22  (00:00)
+jimmy     ttys004                   Sat Aug 19 15:15 - 15:15  (00:00)
+jimmy     ttys003                   Sat Aug 19 15:15 - 15:15  (00:00)
+jimmy     ttys003                   Sat Aug 19 15:15 - 15:15  (00:00)
+jimmy     ttys001                   Sat Aug 19 15:13 - 15:13  (00:00)
+jimmy     ttys001                   Sat Aug 19 14:53 - 14:53  (00:00)
+jimmy     ttys002                   Sat Aug 19 12:44 - 12:44  (00:00)
+jimmy     ttys002                   Sat Aug 19 12:21 - 12:21  (00:00)
+jimmy     ttys000                   Sat Aug 19 11:49 - 11:49  (00:00)
+jimmy     ttys000                   Sat Aug 19 11:15 - 11:15  (00:00)
+jimmy     ttys001                   Sat Aug 19 11:13 - 11:13  (00:00)
+jimmy     ttys003                   Sat Aug 19 11:11 - 11:11  (00:00)
+jimmy     ttys001                   Sat Aug 19 11:11 - 11:11  (00:00)
+jimmy     ttys002                   Sat Aug 19 11:09 - 11:09  (00:00)
+jimmy     ttys001                   Sat Aug 19 07:52 - 07:52  (00:00)
+jimmy     ttys002                   Sat Aug 19 07:48 - 07:48  (00:00)
+jimmy     ttys001                   Sat Aug 19 07:46 - 07:46  (00:00)
+jimmy     ttys000                   Sat Aug 19 07:16 - 07:16  (00:00)
+jimmy     ttys000                   Fri Aug 18 22:39 - 22:39  (00:00)
+jimmy     ttys002                   Fri Aug 18 22:38 - 22:38  (00:00)
+jimmy     ttys001                   Fri Aug 18 22:36 - 22:36  (00:00)
+jimmy     ttys000                   Fri Aug 18 22:36 - 22:36  (00:00)
+jimmy     console                   Fri Aug 18 22:32 - 17:26 (3+18:54)
+jimmy     ttys000                   Fri Aug 18 22:22 - 22:22  (00:00)
+jimmy     ttys002                   Fri Aug 18 17:22 - 17:22  (00:00)
+jimmy     ttys000                   Fri Aug 18 17:22 - 17:22  (00:00)
+jimmy     ttys004                   Fri Aug 18 17:02 - 17:02  (00:00)
+jimmy     ttys009                   Fri Aug 18 15:52 - 15:52  (00:00)
+jimmy     ttys008                   Fri Aug 18 15:41 - 15:41  (00:00)
+jimmy     ttys004                   Fri Aug 18 15:41 - 15:41  (00:00)
+jimmy     ttys003                   Fri Aug 18 11:17 - 11:17  (00:00)
+jimmy     ttys002                   Fri Aug 18 11:14 - 11:14  (00:00)
+jimmy     ttys001                   Fri Aug 18 10:09 - 10:09  (00:00)
+jimmy     ttys006                   Fri Aug 18 10:03 - 10:03  (00:00)
+jimmy     ttys005                   Fri Aug 18 10:03 - 10:03  (00:00)
+jimmy     ttys004                   Fri Aug 18 10:03 - 10:03  (00:00)
+jimmy     ttys003                   Fri Aug 18 10:03 - 10:03  (00:00)
+jimmy     ttys001                   Fri Aug 18 10:02 - 10:02  (00:00)
+jimmy     ttys001                   Fri Aug 18 09:55 - 09:55  (00:00)
+jimmy     ttys006                   Thu Aug 17 14:46 - 14:46  (00:00)
+jimmy     ttys007                   Thu Aug 17 14:46 - 14:46  (00:00)
+jimmy     ttys001                   Thu Aug 17 14:19 - 14:19  (00:00)
+jimmy     ttys005                   Thu Aug 17 14:11 - 14:11  (00:00)
+jimmy     ttys004                   Thu Aug 17 11:49 - 11:49  (00:00)
+jimmy     ttys001                   Thu Aug 17 10:25 - 10:25  (00:00)
+jimmy     ttys009                   Wed Aug 16 17:13 - 17:13  (00:00)
+jimmy     ttys008                   Wed Aug 16 17:13 - 17:13  (00:00)
+jimmy     ttys007                   Wed Aug 16 17:13 - 17:13  (00:00)
+jimmy     ttys001                   Wed Aug 16 10:57 - 10:57  (00:00)
+jimmy     ttys002                   Tue Aug 15 21:43 - 21:43  (00:00)
+jimmy     ttys002                   Tue Aug 15 21:43 - 21:43  (00:00)
+jimmy     ttys002                   Tue Aug 15 21:39 - 21:39  (00:00)
+jimmy     ttys001                   Tue Aug 15 21:37 - 21:37  (00:00)
+jimmy     ttys001                   Tue Aug 15 21:19 - 21:19  (00:00)
+jimmy     ttys000                   Tue Aug 15 21:09 - 21:09  (00:00)
+jimmy     ttys000                   Tue Aug 15 17:33 - 17:33  (00:00)
+jimmy     console                   Tue Aug 15 17:19 - 22:32 (3+05:12)
+reboot    ~                         Tue Aug 15 17:19 
+shutdown  ~                         Tue Aug 15 17:19 
+jimmy     console                   Tue Aug 15 17:14 - 17:18  (00:04)
+reboot    ~                         Tue Aug 15 17:14 
+shutdown  ~                         Tue Aug 15 17:14 
+jimmy     ttys001                   Tue Aug 15 17:05 - 17:05  (00:00)
+jimmy     ttys004                   Tue Aug 15 14:58 - 14:58  (00:00)
+jimmy     ttys004                   Tue Aug 15 14:57 - 14:57  (00:00)
+jimmy     ttys003                   Tue Aug 15 14:52 - 14:52  (00:00)
+jimmy     ttys002                   Tue Aug 15 14:07 - 14:07  (00:00)
+jimmy     ttys001                   Tue Aug 15 12:40 - 12:40  (00:00)
+jimmy     ttys001                   Tue Aug 15 12:13 - 12:13  (00:00)
+jimmy     ttys001                   Tue Aug 15 12:11 - 12:11  (00:00)
+jimmy     ttys000                   Tue Aug 15 12:10 - 12:10  (00:00)
+_mbsetupuser  console                   Tue Aug 15 09:58 - shutdown  (07:15)
+jimmy     console                   Tue Aug 15 09:58 - 17:14  (07:15)
+reboot    ~                         Tue Aug 15 09:57 
+shutdown  ~                         Tue Aug 15 09:55 
+root      console                   Tue Aug 15 09:52 - shutdown  (00:03)
+jimmy     ttys004                   Mon Aug 14 17:17 - 17:17  (00:00)
+jimmy     ttys002                   Mon Aug 14 17:16 - 17:16  (00:00)
+jimmy     ttys001                   Mon Aug 14 16:51 - 16:51  (00:00)
+jimmy     ttys000                   Mon Aug 14 16:46 - 16:46  (00:00)
+jimmy     ttys004                   Mon Aug 14 15:07 - 15:07  (00:00)
+jimmy     ttys002                   Mon Aug 14 11:00 - 11:00  (00:00)
+jimmy     ttys001                   Mon Aug 14 10:52 - 10:52  (00:00)
+jimmy     ttys003                   Mon Aug 14 10:34 - 10:34  (00:00)
+jimmy     ttys002                   Mon Aug 14 10:20 - 10:20  (00:00)
+jimmy     ttys001                   Mon Aug 14 09:57 - 09:57  (00:00)
+jimmy     ttys000                   Mon Aug 14 09:47 - 09:47  (00:00)
+jimmy     ttys000                   Mon Aug 14 08:32 - 08:32  (00:00)
+jimmy     ttys005                   Sun Aug 13 17:36 - 17:36  (00:00)
+jimmy     ttys004                   Sun Aug 13 17:36 - 17:36  (00:00)
+jimmy     ttys001                   Sun Aug 13 16:24 - 16:24  (00:00)
+jimmy     ttys000                   Sun Aug 13 14:04 - 14:04  (00:00)
+jimmy     ttys002                   Sun Aug 13 14:01 - 14:01  (00:00)
+jimmy     ttys000                   Sun Aug 13 13:28 - 13:28  (00:00)
+jimmy     ttys001                   Sun Aug 13 12:02 - 12:02  (00:00)
+jimmy     ttys000                   Sun Aug 13 09:38 - 09:38  (00:00)
+jimmy     ttys000                   Sun Aug 13 09:04 - 09:04  (00:00)
+jimmy     ttys000                   Sun Aug 13 09:02 - 09:02  (00:00)
+jimmy     ttys000                   Sun Aug 13 06:14 - 06:14  (00:00)
+jimmy     ttys001                   Fri Aug 11 23:37 - 23:37  (00:00)
+jimmy     ttys000                   Fri Aug 11 23:21 - 23:21  (00:00)
+jimmy     ttys003                   Fri Aug 11 17:51 - 17:51  (00:00)
+jimmy     ttys002                   Fri Aug 11 17:51 - 17:51  (00:00)
+jimmy     ttys001                   Fri Aug 11 17:22 - 17:22  (00:00)
+jimmy     ttys000                   Fri Aug 11 17:21 - 17:21  (00:00)
+jimmy     ttys001                   Fri Aug 11 16:53 - 16:53  (00:00)
+jimmy     console                   Fri Aug 11 16:16 - 09:52 (3+17:36)
+reboot    ~                         Fri Aug 11 16:15 
+jimmy     ttys001                   Fri Aug 11 11:06 - crash  (05:09)
+jimmy     ttys000                   Fri Aug 11 10:29 - 10:29  (00:00)
+jimmy     ttys001                   Fri Aug 11 09:59 - 09:59  (00:00)
+jimmy     ttys000                   Fri Aug 11 09:57 - 09:57  (00:00)
+jimmy     ttys000                   Fri Aug 11 09:43 - 09:43  (00:00)
+jimmy     console                   Fri Aug 11 09:42 - crash  (06:33)
+reboot    ~                         Fri Aug 11 09:42 
+jimmy     console                   Fri Aug 11 09:41 - crash  (00:00)
+jimmy     ttys000                   Thu Aug 10 22:18 - 22:18  (00:00)
+jimmy     ttys006                   Thu Aug 10 11:57 - 11:57  (00:00)
+jimmy     ttys005                   Thu Aug 10 10:52 - 10:52  (00:00)
+jimmy     ttys003                   Wed Aug  9 18:09 - 18:09  (00:00)
+jimmy     ttys000                   Wed Aug  9 17:32 - 17:32  (00:00)
+jimmy     ttys000                   Wed Aug  9 16:08 - 16:08  (00:00)
+jimmy     ttys002                   Wed Aug  9 16:00 - 16:00  (00:00)
+jimmy     ttys000                   Wed Aug  9 14:20 - 14:20  (00:00)
+jimmy     ttys000                   Wed Aug  9 14:12 - 14:12  (00:00)
+jimmy     ttys002                   Wed Aug  9 13:38 - 13:38  (00:00)
+jimmy     ttys002                   Wed Aug  9 10:57 - 10:57  (00:00)
+jimmy     ttys000                   Wed Aug  9 10:30 - 10:30  (00:00)
+jimmy     console                   Wed Aug  9 10:21 - 09:41 (1+23:19)
+jimmy     ttys001                   Tue Aug  8 15:59 - 15:59  (00:00)
+jimmy     ttys003                   Tue Aug  8 14:56 - 14:56  (00:00)
+jimmy     ttys004                   Tue Aug  8 14:28 - 14:28  (00:00)
+jimmy     ttys004                   Tue Aug  8 14:04 - 14:04  (00:00)
+jimmy     ttys002                   Tue Aug  8 12:03 - 12:03  (00:00)
+jimmy     ttys001                   Tue Aug  8 11:59 - 11:59  (00:00)
+jimmy     ttys002                   Mon Aug  7 17:11 - 17:11  (00:00)
+jimmy     ttys001                   Mon Aug  7 16:58 - 16:58  (00:00)
+jimmy     ttys001                   Mon Aug  7 16:03 - 16:03  (00:00)
+jimmy     ttys002                   Mon Aug  7 13:49 - 13:49  (00:00)
+jimmy     ttys001                   Mon Aug  7 13:39 - 13:39  (00:00)
+jimmy     ttys002                   Mon Aug  7 11:04 - 11:04  (00:00)
+jimmy     ttys000                   Mon Aug  7 10:21 - 10:21  (00:00)
+jimmy     ttys000                   Mon Aug  7 10:12 - 10:12  (00:00)
+jimmy     ttys000                   Sun Aug  6 00:11 - 00:11  (00:00)
+jimmy     ttys001                   Fri Aug  4 22:23 - 22:23  (00:00)
+jimmy     ttys002                   Fri Aug  4 18:57 - 18:57  (00:00)
+jimmy     ttys000                   Thu Aug  3 22:05 - 22:05  (00:00)
+jimmy     ttys003                   Thu Aug  3 00:35 - 00:35  (00:00)
+jimmy     ttys002                   Thu Aug  3 00:35 - 00:35  (00:00)
+jimmy     ttys003                   Thu Aug  3 00:09 - 00:09  (00:00)
+jimmy     ttys002                   Thu Aug  3 00:09 - 00:09  (00:00)
+jimmy     ttys001                   Wed Aug  2 23:46 - 23:46  (00:00)
+jimmy     ttys000                   Wed Aug  2 23:45 - 23:45  (00:00)
+jimmy     ttys000                   Tue Aug  1 19:24 - 19:24  (00:00)
+jimmy     ttys002                   Mon Jul 31 14:30 - 14:30  (00:00)
+jimmy     ttys000                   Mon Jul 31 10:23 - 10:23  (00:00)
+jimmy     ttys000                   Sat Jul 29 19:03 - 19:03  (00:00)
+jimmy     console                   Sat Jul 29 19:02 - 10:21 (10+15:18)
+reboot    ~                         Sat Jul 29 19:02 
+jimmy     console                   Sat Jul 29 19:00 - crash  (00:02)
+jimmy     ttys002                   Sat Jul 29 18:16 - 18:16  (00:00)
+jimmy     ttys000                   Sat Jul 29 12:04 - 12:04  (00:00)
+jimmy     console                   Sat Jul 29 09:46 - 19:00  (09:13)
+reboot    ~                         Sat Jul 29 09:46 
+jimmy     console                   Sat Jul 29 09:45 - crash  (00:01)
+jimmy     ttys001                   Sat Jul 29 09:27 - 09:27  (00:00)
+jimmy     ttys000                   Sat Jul 29 09:25 - 09:25  (00:00)
+jimmy     console                   Sat Jul 29 08:24 - 09:44  (01:20)
+jimmy     ttys002                   Sat Jul 29 08:06 - 08:06  (00:00)
+jimmy     ttys000                   Sat Jul 29 07:41 - 07:41  (00:00)
+jimmy     ttys002                   Sat Jul 29 07:36 - 07:36  (00:00)
+jimmy     ttys000                   Sat Jul 29 07:05 - 07:05  (00:00)
+jimmy     console                   Sat Jul 29 07:05 - 08:08  (01:02)
+jimmy     ttys001                   Sat Jul 29 00:08 - 00:08  (00:00)
+jimmy     ttys000                   Fri Jul 28 23:57 - 23:57  (00:00)
+jimmy     ttys003                   Fri Jul 28 16:36 - 16:36  (00:00)
+jimmy     ttys002                   Fri Jul 28 16:31 - 16:31  (00:00)
+jimmy     ttys002                   Thu Jul 27 10:35 - 10:35  (00:00)
+jimmy     ttys000                   Thu Jul 27 09:32 - 09:32  (00:00)
+jimmy     ttys003                   Wed Jul 26 18:11 - 18:11  (00:00)
+jimmy     ttys001                   Wed Jul 26 16:20 - 16:20  (00:00)
+jimmy     ttys002                   Wed Jul 26 15:47 - 15:47  (00:00)
+jimmy     ttys000                   Wed Jul 26 15:35 - 15:35  (00:00)
+jimmy     ttys000                   Wed Jul 26 14:40 - 14:40  (00:00)
+jimmy     ttys000                   Wed Jul 26 13:51 - 13:51  (00:00)
+jimmy     ttys002                   Tue Jul 25 16:56 - 16:56  (00:00)
+jimmy     ttys001                   Tue Jul 25 15:06 - 15:06  (00:00)
+jimmy     ttys002                   Tue Jul 25 13:11 - 13:11  (00:00)
+jimmy     ttys000                   Tue Jul 25 12:00 - 12:00  (00:00)
+jimmy     console                   Tue Jul 25 11:51 - 07:05 (3+19:14)
+reboot    ~                         Tue Jul 25 11:50 
+jimmy     ttys000                   Mon Jul 24 09:56 - 09:56  (00:00)
+jimmy     ttys000                   Sat Jul 22 22:17 - 22:17  (00:00)
+jimmy     ttys000                   Sat Jul 22 11:50 - 11:50  (00:00)
+jimmy     ttys002                   Sat Jul 22 00:05 - 00:05  (00:00)
+jimmy     ttys002                   Fri Jul 21 13:41 - 13:41  (00:00)
+jimmy     ttys000                   Fri Jul 21 13:24 - 13:24  (00:00)
+jimmy     ttys001                   Fri Jul 21 11:50 - 11:50  (00:00)
+jimmy     ttys005                   Fri Jul 21 11:25 - 11:25  (00:00)
+jimmy     ttys003                   Fri Jul 21 10:22 - 10:22  (00:00)
+jimmy     ttys001                   Thu Jul 20 17:01 - 17:01  (00:00)
+jimmy     ttys002                   Thu Jul 20 15:43 - 15:43  (00:00)
+jimmy     ttys000                   Thu Jul 20 15:35 - 15:35  (00:00)
+jimmy     ttys000                   Thu Jul 20 15:19 - 15:19  (00:00)
+jimmy     ttys000                   Thu Jul 20 15:13 - 15:13  (00:00)
+jimmy     ttys000                   Thu Jul 20 14:45 - 14:45  (00:00)
+jimmy     console                   Thu Jul 20 14:26 - crash (4+21:24)
+reboot    ~                         Thu Jul 20 14:26 
+shutdown  ~                         Thu Jul 20 14:26 
+jimmy     console                   Thu Jul 20 14:23 - 14:25  (00:01)
+reboot    ~                         Thu Jul 20 14:23 
+jimmy     ttys006                   Wed Jul 19 17:35 - 17:35  (00:00)
+jimmy     ttys005                   Wed Jul 19 15:44 - 15:44  (00:00)
+jimmy     ttys004                   Wed Jul 19 15:43 - crash  (22:40)
+jimmy     ttys000                   Wed Jul 19 14:52 - crash  (23:31)
+jimmy     ttys000                   Wed Jul 19 14:28 - 14:28  (00:00)
+jimmy     ttys001                   Wed Jul 19 13:43 - 13:43  (00:00)
+jimmy     ttys000                   Wed Jul 19 13:15 - 13:15  (00:00)
+jimmy     console                   Wed Jul 19 13:12 - crash (1+01:11)
+reboot    ~                         Wed Jul 19 13:12 
+jimmy     ttys003                   Wed Jul 19 11:45 - 11:45  (00:00)
+jimmy     ttys000                   Wed Jul 19 11:11 - 11:11  (00:00)
+jimmy     ttys000                   Wed Jul 19 10:03 - 10:03  (00:00)
+jimmy     ttys000                   Sat Jul 15 20:52 - 20:52  (00:00)
+jimmy     console                   Sat Jul 15 19:37 - crash (3+17:34)
+reboot    ~                         Sat Jul 15 19:37 
+shutdown  ~                         Sat Jul 15 19:36 
+jimmy     ttys000                   Sat Jul 15 19:32 - 19:32  (00:00)
+jimmy     ttys000                   Wed Jul 12 17:32 - 17:32  (00:00)
+jimmy     ttys001                   Wed Jul 12 17:28 - 17:28  (00:00)
+jimmy     ttys001                   Wed Jul 12 16:49 - 16:49  (00:00)
+jimmy     ttys000                   Wed Jul 12 16:05 - 16:05  (00:00)
+jimmy     ttys000                   Wed Jul 12 10:14 - 10:14  (00:00)
+jimmy     ttys000                   Tue Jul 11 12:18 - 12:18  (00:00)
+jimmy     ttys000                   Mon Jul 10 23:53 - 23:53  (00:00)
+jimmy     ttys000                   Sun Jul  9 20:38 - 20:38  (00:00)
+jimmy     ttys000                   Sun Jul  9 20:13 - 20:13  (00:00)
+jimmy     ttys000                   Fri Jul  7 21:47 - 21:47  (00:00)
+jimmy     ttys001                   Fri Jul  7 21:34 - 21:34  (00:00)
+jimmy     ttys000                   Fri Jul  7 21:13 - 21:13  (00:00)
+jimmy     ttys003                   Fri Jul  7 19:10 - 19:10  (00:00)
+jimmy     ttys002                   Fri Jul  7 18:55 - 18:55  (00:00)
+jimmy     ttys001                   Fri Jul  7 13:34 - 13:34  (00:00)
+jimmy     ttys000                   Fri Jul  7 13:20 - 13:20  (00:00)
+jimmy     ttys000                   Fri Jul  7 13:12 - 13:12  (00:00)
+jimmy     ttys000                   Fri Jul  7 13:10 - 13:10  (00:00)
+jimmy     ttys000                   Fri Jul  7 13:09 - 13:09  (00:00)
+jimmy     ttys003                   Fri Jul  7 10:35 - 10:35  (00:00)
+jimmy     ttys002                   Thu Jul  6 18:57 - 18:57  (00:00)
+jimmy     ttys000                   Thu Jul  6 18:12 - 18:12  (00:00)
+jimmy     ttys003                   Thu Jul  6 17:24 - 17:24  (00:00)
+jimmy     ttys006                   Thu Jul  6 17:04 - 17:04  (00:00)
+jimmy     ttys005                   Thu Jul  6 16:58 - 16:58  (00:00)
+jimmy     ttys004                   Thu Jul  6 16:53 - 16:53  (00:00)
+jimmy     ttys003                   Thu Jul  6 16:47 - 16:47  (00:00)
+jimmy     ttys002                   Thu Jul  6 14:25 - 14:25  (00:00)
+jimmy     ttys000                   Thu Jul  6 14:25 - 14:25  (00:00)
+jimmy     ttys000                   Thu Jul  6 10:45 - 10:45  (00:00)
+jimmy     ttys001                   Thu Jul  6 01:26 - 01:26  (00:00)
+jimmy     ttys000                   Fri Jun 30 21:41 - 21:41  (00:00)
+jimmy     ttys001                   Fri Jun 30 17:03 - 17:03  (00:00)
+jimmy     ttys000                   Fri Jun 30 14:08 - 14:08  (00:00)
+jimmy     ttys001                   Fri Jun 30 08:46 - 08:46  (00:00)
+jimmy     ttys000                   Fri Jun 30 08:44 - 08:44  (00:00)
+jimmy     ttys000                   Thu Jun 29 12:38 - 12:38  (00:00)
+jimmy     ttys001                   Wed Jun 28 12:35 - 12:35  (00:00)
+jimmy     ttys002                   Wed Jun 28 09:07 - 09:07  (00:00)
+jimmy     ttys001                   Tue Jun 27 18:24 - 18:24  (00:00)
+jimmy     ttys000                   Tue Jun 27 18:20 - 18:20  (00:00)
+jimmy     ttys000                   Mon Jun 26 18:23 - 18:23  (00:00)
+jimmy     ttys000                   Mon Jun 26 18:07 - 18:07  (00:00)
+jimmy     ttys003                   Mon Jun 26 12:35 - 12:35  (00:00)
+jimmy     ttys002                   Mon Jun 26 12:35 - 12:35  (00:00)
+jimmy     ttys001                   Mon Jun 26 12:34 - 12:34  (00:00)
+jimmy     ttys001                   Mon Jun 26 00:09 - 00:09  (00:00)
+jimmy     ttys001                   Sun Jun 25 19:39 - 19:39  (00:00)
+jimmy     ttys001                   Sun Jun 25 12:31 - 12:31  (00:00)
+jimmy     ttys002                   Sun Jun 25 10:29 - 10:29  (00:00)
+jimmy     ttys001                   Sun Jun 25 10:27 - 10:27  (00:00)
+jimmy     ttys002                   Sun Jun 25 08:04 - 08:04  (00:00)
+jimmy     ttys001                   Sun Jun 25 00:11 - 00:11  (00:00)
+jimmy     ttys000                   Sat Jun 24 23:54 - 23:54  (00:00)
+jimmy     ttys002                   Sat Jun 24 19:44 - 19:44  (00:00)
+jimmy     ttys000                   Sat Jun 24 17:00 - 17:00  (00:00)
+jimmy     ttys000                   Sat Jun 24 15:11 - 15:11  (00:00)
+jimmy     ttys001                   Sat Jun 24 15:06 - 15:06  (00:00)
+jimmy     ttys001                   Sat Jun 24 15:01 - 15:01  (00:00)
+jimmy     ttys000                   Sat Jun 24 14:52 - 14:52  (00:00)
+jimmy     ttys000                   Sat Jun 24 12:22 - 12:22  (00:00)
+jimmy     ttys000                   Sat Jun 24 12:08 - 12:08  (00:00)
+jimmy     ttys002                   Sat Jun 24 07:57 - 07:57  (00:00)
+jimmy     ttys001                   Sat Jun 24 07:03 - 07:03  (00:00)
+jimmy     ttys000                   Sat Jun 24 00:50 - 00:50  (00:00)
+jimmy     ttys000                   Sat Jun 24 00:18 - 00:18  (00:00)
+jimmy     ttys002                   Fri Jun 23 17:39 - 17:39  (00:00)
+jimmy     ttys001                   Fri Jun 23 17:02 - 17:02  (00:00)
+jimmy     ttys000                   Fri Jun 23 14:18 - 14:18  (00:00)
+jimmy     ttys001                   Fri Jun 23 14:11 - 14:11  (00:00)
+jimmy     ttys000                   Fri Jun 23 13:02 - 13:02  (00:00)
+jimmy     ttys000                   Fri Jun 23 12:06 - 12:06  (00:00)
+jimmy     ttys003                   Fri Jun 23 00:51 - 00:51  (00:00)
+jimmy     ttys005                   Fri Jun 23 00:33 - 00:33  (00:00)
+jimmy     ttys005                   Fri Jun 23 00:33 - 00:33  (00:00)
+jimmy     ttys004                   Fri Jun 23 00:30 - 00:30  (00:00)
+jimmy     ttys003                   Fri Jun 23 00:29 - 00:29  (00:00)
+jimmy     ttys001                   Thu Jun 22 19:38 - 19:38  (00:00)
+jimmy     ttys002                   Thu Jun 22 19:09 - 19:09  (00:00)
+jimmy     ttys001                   Thu Jun 22 19:08 - 19:08  (00:00)
+jimmy     ttys000                   Thu Jun 22 18:30 - 18:30  (00:00)
+jimmy     ttys000                   Thu Jun 22 17:09 - 17:09  (00:00)
+jimmy     ttys002                   Thu Jun 22 17:06 - 17:06  (00:00)
+jimmy     ttys002                   Thu Jun 22 17:06 - 17:06  (00:00)
+jimmy     ttys001                   Thu Jun 22 17:06 - 17:06  (00:00)
+jimmy     ttys000                   Thu Jun 22 17:06 - 17:06  (00:00)
+jimmy     ttys000                   Thu Jun 22 16:41 - 16:41  (00:00)
+jimmy     ttys001                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys007                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys006                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys005                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys004                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys003                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys002                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys001                   Thu Jun 22 16:30 - 16:30  (00:00)
+jimmy     ttys001                   Thu Jun 22 16:29 - 16:29  (00:00)
+jimmy     ttys000                   Thu Jun 22 14:14 - 14:14  (00:00)
+jimmy     ttys000                   Thu Jun 22 12:19 - 12:19  (00:00)
+jimmy     ttys000                   Thu Jun 22 11:11 - 11:11  (00:00)
+jimmy     ttys003                   Thu Jun 22 07:27 - 07:27  (00:00)
+jimmy     ttys001                   Wed Jun 21 23:36 - 23:36  (00:00)
+jimmy     ttys001                   Wed Jun 21 23:34 - 23:34  (00:00)
+jimmy     ttys004                   Wed Jun 21 23:01 - 23:01  (00:00)
+jimmy     ttys001                   Wed Jun 21 23:01 - 23:01  (00:00)
+jimmy     ttys001                   Wed Jun 21 23:01 - 23:01  (00:00)
+jimmy     ttys002                   Wed Jun 21 23:00 - 23:00  (00:00)
+jimmy     ttys000                   Wed Jun 21 22:57 - 22:57  (00:00)
+jimmy     ttys000                   Wed Jun 21 22:56 - 22:56  (00:00)
+jimmy     ttys000                   Wed Jun 21 22:55 - 22:55  (00:00)
+jimmy     ttys001                   Wed Jun 21 22:53 - 22:53  (00:00)
+jimmy     ttys000                   Wed Jun 21 22:53 - 22:53  (00:00)
+jimmy     ttys000                   Wed Jun 21 18:47 - 18:47  (00:00)
+jimmy     ttys002                   Tue Jun 20 11:17 - 11:17  (00:00)
+jimmy     ttys001                   Tue Jun 20 10:57 - 10:57  (00:00)
+jimmy     ttys000                   Tue Jun 20 08:32 - 08:32  (00:00)
+jimmy     console                   Tue Jun 20 08:32 - 19:36 (25+11:03)
+reboot    ~                         Tue Jun 20 08:32 
+shutdown  ~                         Tue Jun 20 08:31 
+jimmy     console                   Tue Jun 20 00:37 - 08:31  (07:54)
+reboot    ~                         Tue Jun 20 00:37 
+jimmy     console                   Tue Jun 20 00:18 - crash  (00:19)
+reboot    ~                         Tue Jun 20 00:18 
+shutdown  ~                         Tue Jun 20 00:18 
+jimmy     console                   Mon Jun 19 23:44 - 00:18  (00:33)
+jimmy     ttys000                   Mon Jun 19 13:35 - 13:35  (00:00)
+jimmy     ttys001                   Mon Jun 19 13:04 - 13:04  (00:00)
+jimmy     ttys004                   Sun Jun 18 15:53 - 15:53  (00:00)
+jimmy     ttys003                   Sun Jun 18 15:53 - 15:53  (00:00)
+jimmy     ttys002                   Sun Jun 18 10:31 - 10:31  (00:00)
+jimmy     ttys001                   Sun Jun 18 10:27 - 10:27  (00:00)
+jimmy     ttys001                   Sun Jun 18 07:34 - 07:34  (00:00)
+jimmy     ttys000                   Sun Jun 18 07:18 - 07:18  (00:00)
+jimmy     ttys000                   Sun Jun 18 07:12 - 07:12  (00:00)
+jimmy     console                   Sun Jun 18 07:12 - 23:36 (1+16:23)
+reboot    ~                         Sun Jun 18 07:12 
+shutdown  ~                         Sun Jun 18 07:10 
+jimmy     ttys000                   Sat Jun 17 23:08 - 23:08  (00:00)
+jimmy     ttys001                   Sat Jun 17 23:07 - 23:07  (00:00)
+jimmy     ttys000                   Sat Jun 17 22:51 - 22:51  (00:00)
+jimmy     console                   Sat Jun 17 22:49 - 07:10  (08:20)
+jimmy     ttys000                   Sat Jun 17 20:43 - 20:43  (00:00)
+jimmy     ttys000                   Sat Jun 17 19:55 - 19:55  (00:00)
+jimmy     ttys001                   Sat Jun 17 18:13 - 18:13  (00:00)
+jimmy     ttys002                   Sat Jun 17 16:51 - 16:51  (00:00)
+jimmy     ttys004                   Fri Jun 16 12:12 - 12:12  (00:00)
+jimmy     ttys003                   Fri Jun 16 00:58 - 00:58  (00:00)
+jimmy     ttys001                   Fri Jun 16 00:08 - 00:08  (00:00)
+jimmy     ttys004                   Fri Jun 16 00:02 - 00:02  (00:00)
+jimmy     ttys002                   Thu Jun 15 22:59 - 22:59  (00:00)
+jimmy     ttys002                   Thu Jun 15 22:43 - 22:43  (00:00)
+jimmy     ttys003                   Thu Jun 15 19:25 - 19:25  (00:00)
+jimmy     ttys002                   Thu Jun 15 19:25 - 19:25  (00:00)
+jimmy     ttys001                   Thu Jun 15 19:24 - 19:24  (00:00)
+jimmy     ttys000                   Wed Jun 14 11:57 - 11:57  (00:00)
+jimmy     ttys000                   Wed Jun 14 11:56 - 11:56  (00:00)
+jimmy     ttys000                   Sat Jun 10 20:16 - 20:16  (00:00)
+jimmy     ttys002                   Sat Jun 10 19:30 - 19:30  (00:00)
+jimmy     ttys001                   Sat Jun 10 19:29 - 19:29  (00:00)
+jimmy     ttys000                   Sat Jun 10 17:13 - 17:13  (00:00)
+jimmy     ttys003                   Sat Jun 10 15:58 - 15:58  (00:00)
+jimmy     ttys000                   Sat Jun 10 14:57 - 14:57  (00:00)
+jimmy     ttys000                   Sat Jun 10 09:59 - 09:59  (00:00)
+jimmy     console                   Sat Jun 10 09:49 - 22:49 (7+13:00)
+reboot    ~                         Sat Jun 10 09:49 
+shutdown  ~                         Sat Jun 10 09:47 
+jimmy     ttys002                   Fri Jun  9 20:32 - 20:32  (00:00)
+jimmy     ttys002                   Fri Jun  9 17:43 - 17:43  (00:00)
+jimmy     ttys000                   Fri Jun  9 14:14 - 14:14  (00:00)
+jimmy     ttys000                   Fri Jun  9 10:10 - 10:10  (00:00)
+jimmy     console                   Fri Jun  9 09:51 - 09:46  (23:54)
+jimmy     ttys000                   Wed Jun  7 17:20 - 17:20  (00:00)
+jimmy     ttys001                   Wed Jun  7 14:56 - 14:56  (00:00)
+jimmy     ttys002                   Wed Jun  7 11:24 - 11:24  (00:00)
+jimmy     ttys003                   Mon Jun  5 15:15 - 15:15  (00:00)
+jimmy     ttys000                   Sun Jun  4 10:15 - 10:15  (00:00)
+jimmy     ttys003                   Sun Jun  4 07:52 - 07:52  (00:00)
+jimmy     ttys003                   Sun Jun  4 07:32 - 07:32  (00:00)
+jimmy     ttys001                   Fri Jun  2 09:59 - 09:59  (00:00)
+jimmy     ttys000                   Fri Jun  2 09:20 - 09:20  (00:00)
+jimmy     ttys000                   Fri Jun  2 09:20 - 09:20  (00:00)
+jimmy     console                   Fri Jun  2 09:17 - 09:51 (7+00:33)
+jimmy     ttys000                   Fri Jun  2 09:12 - 09:12  (00:00)
+jimmy     ttys000                   Fri Jun  2 09:12 - 09:12  (00:00)
+jimmy     ttys001                   Fri Jun  2 09:11 - 09:11  (00:00)
+jimmy     ttys000                   Fri Jun  2 08:43 - 08:43  (00:00)
+jimmy     ttys003                   Thu Jun  1 21:23 - 21:23  (00:00)
+jimmy     ttys000                   Thu Jun  1 16:36 - 16:36  (00:00)
+jimmy     ttys002                   Thu Jun  1 14:33 - 14:33  (00:00)
+jimmy     ttys000                   Thu Jun  1 12:39 - 12:39  (00:00)
+jimmy     ttys000                   Thu Jun  1 11:28 - 11:28  (00:00)
+jimmy     ttys003                   Wed May 31 13:15 - 13:15  (00:00)
+jimmy     ttys000                   Wed May 31 11:30 - 11:30  (00:00)
+jimmy     console                   Wed May 31 11:23 - 09:17 (1+21:53)
+jimmy     ttys000                   Wed May 31 11:05 - 11:05  (00:00)
+jimmy     ttys002                   Wed May 31 10:21 - 10:21  (00:00)
+jimmy     ttys000                   Wed May 31 10:14 - 10:14  (00:00)
+jimmy     ttys000                   Wed May 31 08:10 - 08:10  (00:00)
+jimmy     ttys000                   Wed May 31 07:44 - 07:44  (00:00)
+jimmy     ttys001                   Tue May 30 17:59 - 17:59  (00:00)
+jimmy     ttys002                   Tue May 30 14:58 - 14:58  (00:00)
+jimmy     ttys003                   Tue May 30 12:01 - 12:01  (00:00)
+jimmy     ttys002                   Tue May 30 11:43 - 11:43  (00:00)
+jimmy     ttys000                   Tue May 30 11:34 - 11:34  (00:00)
+jimmy     ttys002                   Tue May 30 11:33 - 11:33  (00:00)
+jimmy     ttys002                   Tue May 30 11:31 - 11:31  (00:00)
+jimmy     ttys002                   Tue May 30 10:44 - 10:44  (00:00)
+jimmy     ttys000                   Mon May 29 15:59 - 15:59  (00:00)
+jimmy     ttys000                   Mon May 29 15:38 - 15:38  (00:00)
+jimmy     ttys002                   Sun May 28 21:29 - 21:29  (00:00)
+jimmy     ttys000                   Sun May 28 20:57 - 20:57  (00:00)
+jimmy     ttys000                   Sun May 28 20:51 - 20:51  (00:00)
+jimmy     ttys000                   Sun May 28 20:45 - 20:45  (00:00)
+jimmy     ttys001                   Sun May 28 19:32 - 19:32  (00:00)
+jimmy     ttys000                   Sun May 28 13:51 - 13:51  (00:00)
+jimmy     ttys000                   Sun May 28 13:34 - 13:34  (00:00)
+jimmy     ttys000                   Sun May 28 12:22 - 12:22  (00:00)
+jimmy     ttys001                   Sun May 28 11:21 - 11:21  (00:00)
+jimmy     ttys000                   Sat May 27 18:42 - 18:42  (00:00)
+jimmy     ttys000                   Sat May 27 16:11 - 16:11  (00:00)
+jimmy     ttys001                   Sat May 27 08:43 - 08:43  (00:00)
+jimmy     ttys000                   Sat May 27 08:29 - 08:29  (00:00)
+jimmy     ttys000                   Fri May 26 18:41 - 18:41  (00:00)
+jimmy     ttys001                   Fri May 26 09:37 - 09:37  (00:00)
+jimmy     ttys002                   Thu May 25 20:15 - 20:15  (00:00)
+jimmy     ttys003                   Thu May 25 16:56 - 16:56  (00:00)
+jimmy     ttys003                   Thu May 25 14:16 - 14:16  (00:00)
+jimmy     ttys002                   Wed May 24 19:26 - 19:26  (00:00)
+jimmy     ttys005                   Wed May 24 19:22 - 19:22  (00:00)
+jimmy     ttys003                   Wed May 24 19:21 - 19:21  (00:00)
+jimmy     ttys002                   Wed May 24 19:20 - 19:20  (00:00)
+jimmy     ttys000                   Wed May 24 19:19 - 19:19  (00:00)
+jimmy     ttys004                   Wed May 24 18:01 - 18:01  (00:00)
+jimmy     ttys001                   Wed May 24 09:39 - 09:39  (00:00)
+jimmy     ttys000                   Wed May 24 09:01 - 09:01  (00:00)
+jimmy     ttys001                   Tue May 23 20:57 - 20:57  (00:00)
+jimmy     ttys000                   Tue May 23 15:14 - 15:14  (00:00)
+jimmy     ttys000                   Tue May 23 12:11 - 12:11  (00:00)
+jimmy     ttys001                   Mon May 22 21:55 - 21:55  (00:00)
+jimmy     ttys000                   Mon May 22 13:46 - 13:46  (00:00)
+jimmy     ttys000                   Mon May 22 12:45 - 12:45  (00:00)
+jimmy     ttys001                   Sun May 21 18:23 - 18:23  (00:00)
+jimmy     ttys000                   Sun May 21 18:19 - 18:19  (00:00)
+jimmy     ttys000                   Sun May 21 18:02 - 18:02  (00:00)
+jimmy     ttys001                   Sun May 21 17:51 - 17:51  (00:00)
+jimmy     ttys000                   Sun May 21 17:50 - 17:50  (00:00)
+jimmy     ttys001                   Sun May 21 17:50 - 17:50  (00:00)
+jimmy     ttys000                   Sun May 21 17:49 - 17:49  (00:00)
+jimmy     console                   Sun May 21 17:48 - 11:23 (9+17:34)
+jimmy     ttys000                   Sun May 21 17:37 - 17:37  (00:00)
+jimmy     ttys001                   Sun May 21 17:32 - 17:32  (00:00)
+jimmy     ttys000                   Sun May 21 17:30 - 17:30  (00:00)
+jimmy     ttys001                   Sun May 21 17:23 - 17:23  (00:00)
+jimmy     ttys000                   Sat May 20 08:02 - 08:02  (00:00)
+jimmy     ttys000                   Fri May 19 16:29 - 16:29  (00:00)
+jimmy     ttys003                   Fri May 19 16:04 - 16:04  (00:00)
+jimmy     ttys004                   Fri May 19 16:03 - 16:03  (00:00)
+jimmy     ttys000                   Fri May 19 15:58 - 15:58  (00:00)
+jimmy     ttys003                   Fri May 19 15:56 - 15:56  (00:00)
+jimmy     ttys000                   Fri May 19 15:52 - 15:52  (00:00)
+jimmy     ttys000                   Fri May 19 15:12 - 15:12  (00:00)
+jimmy     ttys002                   Fri May 19 14:33 - 14:33  (00:00)
+jimmy     ttys002                   Fri May 19 14:30 - 14:30  (00:00)
+jimmy     ttys004                   Fri May 19 14:29 - 14:29  (00:00)
+jimmy     ttys003                   Fri May 19 14:29 - 14:29  (00:00)
+jimmy     ttys002                   Fri May 19 14:29 - 14:29  (00:00)
+jimmy     ttys002  192.168.31.101   Fri May 19 12:17 - 12:17  (00:00)
+jimmy     ttys002  192.168.31.101   Fri May 19 12:16 - 12:17  (00:00)
+jimmy     ttys002  192.168.31.101   Fri May 19 12:13 - 12:13  (00:00)
+jimmy     ttys002  192.168.31.101   Fri May 19 12:13 - 12:13  (00:00)
+jimmy     ttys001                   Fri May 19 11:52 - 11:52  (00:00)
+jimmy     ttys000                   Fri May 19 11:49 - 11:49  (00:00)
+jimmy     ttys001                   Fri May 19 10:54 - 10:54  (00:00)
+jimmy     ttys000                   Fri May 19 10:09 - 10:09  (00:00)
+jimmy     ttys000                   Thu May 18 18:48 - 18:48  (00:00)
+_mbsetupuser  console                   Thu May 18 14:49 - shutdown (22+18:57)
+jimmy     console                   Thu May 18 14:49 - 17:48 (3+02:58)
+reboot    ~                         Thu May 18 14:48 
+shutdown  ~                         Thu May 18 14:46 
+root      console                   Thu May 18 14:41 - shutdown  (00:05)
+jimmy     ttys001                   Thu May 18 11:00 - 11:00  (00:00)
+jimmy     ttys000                   Thu May 18 09:50 - 09:50  (00:00)
+jimmy     ttys000                   Thu May 18 09:34 - 09:34  (00:00)
+jimmy     ttys000                   Thu May 18 09:28 - 09:28  (00:00)
+jimmy     ttys000                   Thu May 18 09:00 - 09:00  (00:00)
+jimmy     console                   Thu May 18 08:59 - 14:41  (05:41)
+jimmy     ttys000                   Thu May 18 08:59 - 08:59  (00:00)
+jimmy     ttys000                   Wed May 17 11:26 - 11:26  (00:00)
+jimmy     ttys000                   Wed May 17 11:15 - 11:15  (00:00)
+jimmy     ttys000                   Tue May 16 19:59 - 19:59  (00:00)
+jimmy     ttys000                   Mon May 15 12:03 - 12:03  (00:00)
+jimmy     console                   Mon May 15 08:46 - 08:59 (3+00:12)
+reboot    ~                         Mon May 15 08:46 
+jimmy     ttys000                   Mon May 15 08:29 - crash  (00:17)
+jimmy     ttys000                   Sun May 14 15:35 - 15:35  (00:00)
+jimmy     ttys000                   Sun May 14 15:28 - 15:28  (00:00)
+jimmy     ttys001                   Sun May 14 14:06 - 14:06  (00:00)
+jimmy     ttys000                   Sun May 14 14:05 - 14:05  (00:00)
+jimmy     console                   Sun May 14 14:05 - crash  (18:41)
+reboot    ~                         Sun May 14 14:04 
+shutdown  ~                         Sun May 14 14:03 
+jimmy     ttys000                   Mon May  8 14:53 - 14:53  (00:00)
+jimmy     ttys000                   Mon May  8 11:23 - 11:23  (00:00)
+jimmy     ttys001                   Mon May  8 11:00 - 11:00  (00:00)
+jimmy     ttys000                   Sun May  7 21:28 - 21:28  (00:00)
+jimmy     ttys000                   Sat May  6 09:58 - 09:58  (00:00)
+jimmy     ttys000                   Thu May  4 23:09 - 23:09  (00:00)
+jimmy     ttys000                   Wed May  3 09:57 - 09:57  (00:00)
+jimmy     ttys000                   Wed May  3 09:43 - 09:43  (00:00)
+jimmy     ttys000                   Wed May  3 09:42 - 09:42  (00:00)
+jimmy     ttys002                   Wed May  3 09:29 - 09:29  (00:00)
+jimmy     ttys000                   Wed May  3 09:15 - 09:15  (00:00)
+jimmy     ttys003                   Wed May  3 08:54 - 08:54  (00:00)
+jimmy     ttys001                   Wed May  3 08:45 - 08:45  (00:00)
+jimmy     ttys000                   Tue May  2 13:39 - 13:39  (00:00)
+jimmy     ttys000                   Tue May  2 12:08 - 12:08  (00:00)
+jimmy     ttys000                   Mon May  1 18:03 - 18:03  (00:00)
+jimmy     ttys003                   Mon May  1 17:55 - 17:55  (00:00)
+jimmy     ttys000                   Mon May  1 17:53 - 17:53  (00:00)
+jimmy     ttys002                   Mon May  1 17:52 - 17:52  (00:00)
+jimmy     ttys001                   Mon May  1 17:51 - 17:51  (00:00)
+jimmy     ttys000                   Mon May  1 15:10 - 15:10  (00:00)
+jimmy     ttys000                   Mon May  1 14:36 - 14:36  (00:00)
+jimmy     console                   Mon May  1 14:20 - 14:03 (12+23:43)
+reboot    ~                         Mon May  1 14:20 
+shutdown  ~                         Mon May  1 14:19 
+jimmy     ttys000                   Mon May  1 14:12 - 14:12  (00:00)
+jimmy     ttys000                   Fri Apr 28 20:06 - 20:06  (00:00)
+jimmy     ttys000                   Wed Apr 26 15:45 - 15:45  (00:00)
+jimmy     ttys001                   Wed Apr 26 15:39 - 15:39  (00:00)
+jimmy     ttys000                   Wed Apr 26 14:44 - 14:44  (00:00)
+jimmy     ttys000                   Tue Apr 25 14:20 - 14:20  (00:00)
+jimmy     ttys000                   Tue Apr 25 14:13 - 14:13  (00:00)
+jimmy     ttys000                   Sun Apr 23 14:23 - 14:23  (00:00)
+jimmy     ttys000                   Thu Apr 20 17:59 - 17:59  (00:00)
+jimmy     ttys000                   Thu Apr 20 13:58 - 13:58  (00:00)
+jimmy     ttys000                   Wed Apr 19 19:37 - 19:37  (00:00)
+jimmy     ttys001                   Wed Apr 19 18:19 - 18:19  (00:00)
+jimmy     ttys000                   Wed Apr 19 17:14 - 17:14  (00:00)
+jimmy     ttys000                   Wed Apr 19 15:37 - 15:37  (00:00)
+jimmy     ttys000                   Tue Apr 18 20:44 - 20:44  (00:00)
+jimmy     ttys000                   Tue Apr 18 16:13 - 16:13  (00:00)
+jimmy     ttys000                   Mon Apr 17 16:57 - 16:57  (00:00)
+jimmy     console                   Mon Apr 17 16:52 - 14:19 (13+21:27)
+jimmy     ttys000                   Mon Apr 17 16:47 - 16:47  (00:00)
+jimmy     ttys001                   Mon Apr 17 10:07 - 10:07  (00:00)
+jimmy     ttys000                   Mon Apr 17 09:54 - 09:54  (00:00)
+jimmy     ttys000                   Mon Apr 17 09:13 - 09:13  (00:00)
+jimmy     ttys001                   Sun Apr 16 23:49 - 23:49  (00:00)
+jimmy     ttys000                   Sun Apr 16 23:49 - 23:49  (00:00)
+jimmy     ttys003                   Sun Apr 16 23:48 - 23:48  (00:00)
+jimmy     ttys002                   Sun Apr 16 23:47 - 23:47  (00:00)
+jimmy     ttys001                   Sun Apr 16 23:47 - 23:47  (00:00)
+jimmy     ttys000                   Sun Apr 16 18:02 - 18:02  (00:00)
+jimmy     ttys002                   Sun Apr 16 17:33 - 17:33  (00:00)
+jimmy     ttys001                   Sun Apr 16 17:33 - 17:33  (00:00)
+jimmy     ttys003                   Sun Apr 16 17:27 - 17:27  (00:00)
+jimmy     ttys004                   Sun Apr 16 17:26 - 17:26  (00:00)
+jimmy     ttys003                   Sun Apr 16 17:19 - 17:19  (00:00)
+jimmy     ttys002                   Sun Apr 16 17:19 - 17:19  (00:00)
+jimmy     ttys002                   Sun Apr 16 17:09 - 17:09  (00:00)
+jimmy     ttys001                   Sun Apr 16 17:06 - 17:06  (00:00)
+jimmy     ttys001                   Sun Apr 16 17:03 - 17:03  (00:00)
+jimmy     ttys001                   Sun Apr 16 17:03 - 17:03  (00:00)
+jimmy     ttys000                   Sun Apr 16 16:55 - 16:55  (00:00)
+jimmy     ttys000                   Sun Apr 16 16:50 - 16:50  (00:00)
+jimmy     console                   Sun Apr 16 16:45 - 16:52 (1+00:06)
+reboot    ~                         Sun Apr 16 16:45 
+shutdown  ~                         Sun Apr 16 16:42 
+jimmy     ttys005                   Sun Apr 16 16:32 - 16:32  (00:00)
+jimmy     ttys002                   Sun Apr 16 16:31 - 16:31  (00:00)
+jimmy     ttys004                   Sun Apr 16 16:23 - 16:23  (00:00)
+jimmy     ttys002                   Sun Apr 16 16:23 - 16:23  (00:00)
+jimmy     ttys002                   Sat Apr 15 21:25 - 21:25  (00:00)
+jimmy     ttys003                   Sat Apr 15 09:40 - 09:40  (00:00)
+jimmy     ttys002                   Sat Apr 15 09:40 - 09:40  (00:00)
+jimmy     ttys001                   Sat Apr 15 09:35 - 09:35  (00:00)
+jimmy     ttys000                   Sat Apr 15 09:35 - 09:35  (00:00)
+jimmy     ttys001                   Fri Apr 14 21:57 - 21:57  (00:00)
+jimmy     ttys001                   Fri Apr 14 12:50 - 12:50  (00:00)
+jimmy     ttys004                   Thu Apr 13 22:29 - 22:29  (00:00)
+jimmy     ttys002                   Thu Apr 13 21:50 - 21:50  (00:00)
+jimmy     ttys003                   Thu Apr 13 12:51 - 12:51  (00:00)
+jimmy     ttys001                   Thu Apr 13 10:55 - 10:55  (00:00)
+jimmy     ttys001                   Thu Apr 13 10:41 - 10:41  (00:00)
+jimmy     ttys002                   Thu Apr 13 10:38 - 10:38  (00:00)
+jimmy     ttys002                   Thu Apr 13 10:31 - 10:31  (00:00)
+jimmy     ttys001                   Thu Apr 13 10:31 - 10:31  (00:00)
+jimmy     ttys001                   Wed Apr 12 21:35 - 21:35  (00:00)
+jimmy     console                   Wed Apr 12 20:48 - 16:42 (3+19:54)
+reboot    ~                         Wed Apr 12 20:48 
+shutdown  ~                         Wed Apr 12 20:11 
+jimmy     ttys000                   Wed Apr 12 19:24 - 19:24  (00:00)
+jimmy     ttys002                   Wed Apr 12 18:19 - 18:19  (00:00)
+jimmy     ttys003                   Wed Apr 12 17:41 - 17:41  (00:00)
+jimmy     ttys002                   Wed Apr 12 17:41 - 17:41  (00:00)
+jimmy     ttys000                   Wed Apr 12 14:00 - 14:00  (00:00)
+jimmy     ttys003                   Wed Apr 12 13:51 - 13:51  (00:00)
+jimmy     ttys002                   Wed Apr 12 13:51 - 13:51  (00:00)
+jimmy     ttys000                   Wed Apr 12 13:30 - 13:30  (00:00)
+jimmy     ttys001                   Wed Apr 12 12:57 - 12:57  (00:00)
+jimmy     ttys003                   Wed Apr 12 12:14 - 12:14  (00:00)
+jimmy     ttys002                   Wed Apr 12 11:52 - 11:52  (00:00)
+jimmy     ttys000                   Wed Apr 12 11:31 - 11:31  (00:00)
+jimmy     ttys001                   Wed Apr 12 11:30 - 11:30  (00:00)
+jimmy     ttys001                   Wed Apr 12 11:15 - 11:15  (00:00)
+jimmy     ttys003                   Wed Apr 12 11:15 - 11:15  (00:00)
+jimmy     ttys002                   Wed Apr 12 11:15 - 11:15  (00:00)
+jimmy     ttys000                   Wed Apr 12 09:35 - 09:35  (00:00)
+jimmy     ttys000                   Tue Apr 11 16:47 - 16:47  (00:00)
+jimmy     ttys001                   Tue Apr 11 11:38 - 11:38  (00:00)
+jimmy     ttys003                   Sun Apr  9 22:03 - 22:03  (00:00)
+jimmy     ttys001                   Sun Apr  9 17:08 - 17:08  (00:00)
+jimmy     ttys001                   Sun Apr  9 15:40 - 15:40  (00:00)
+jimmy     ttys005                   Sun Apr  9 12:24 - 12:24  (00:00)
+jimmy     ttys001                   Sun Apr  9 10:40 - 10:40  (00:00)
+jimmy     console                   Sun Apr  9 07:37 - 20:11 (3+12:34)
+reboot    ~                         Sun Apr  9 07:36 
+shutdown  ~                         Sun Apr  9 07:36 
+jimmy     ttys000                   Sat Apr  8 17:23 - 17:23  (00:00)
+jimmy     ttys003                   Sat Apr  8 17:21 - 17:21  (00:00)
+jimmy     ttys004                   Sat Apr  8 14:59 - 14:59  (00:00)
+jimmy     ttys003                   Sat Apr  8 14:51 - 14:51  (00:00)
+jimmy     ttys005                   Sat Apr  8 13:09 - 13:09  (00:00)
+jimmy     ttys004                   Sat Apr  8 13:07 - 13:07  (00:00)
+jimmy     ttys006                   Sat Apr  8 13:07 - 13:07  (00:00)
+jimmy     ttys005                   Sat Apr  8 13:06 - 13:06  (00:00)
+jimmy     ttys004                   Sat Apr  8 12:59 - 12:59  (00:00)
+jimmy     ttys001                   Fri Apr  7 22:16 - 22:16  (00:00)
+jimmy     ttys000                   Fri Apr  7 17:20 - 17:20  (00:00)
+jimmy     ttys004                   Fri Apr  7 17:05 - 17:05  (00:00)
+jimmy     ttys000                   Fri Apr  7 15:28 - 15:28  (00:00)
+jimmy     ttys001                   Fri Apr  7 15:23 - 15:23  (00:00)
+jimmy     ttys003                   Fri Apr  7 09:50 - 09:50  (00:00)
+jimmy     ttys000                   Thu Apr  6 10:25 - 10:25  (00:00)
+jimmy     ttys001                   Wed Apr  5 20:47 - 20:47  (00:00)
+jimmy     ttys000                   Wed Apr  5 20:41 - 20:41  (00:00)
+jimmy     ttys001                   Wed Apr  5 19:47 - 19:47  (00:00)
+jimmy     ttys000                   Wed Apr  5 19:47 - 19:47  (00:00)
+jimmy     ttys000                   Wed Apr  5 16:58 - 16:58  (00:00)
+jimmy     ttys000                   Wed Apr  5 16:20 - 16:20  (00:00)
+jimmy     ttys000                   Wed Apr  5 15:46 - 15:46  (00:00)
+jimmy     ttys001                   Wed Apr  5 15:33 - 15:33  (00:00)
+jimmy     ttys002                   Tue Apr  4 21:54 - 21:54  (00:00)
+jimmy     ttys002                   Tue Apr  4 21:35 - 21:35  (00:00)
+jimmy     ttys000                   Tue Apr  4 20:20 - 20:20  (00:00)
+jimmy     ttys002                   Tue Apr  4 16:51 - 16:51  (00:00)
+jimmy     ttys003                   Tue Apr  4 16:10 - 16:10  (00:00)
+jimmy     ttys000                   Tue Apr  4 15:53 - 15:53  (00:00)
+jimmy     ttys000                   Tue Apr  4 15:00 - 15:00  (00:00)
+_mbsetupuser  console                   Tue Apr  4 02:10 - shutdown (5+05:25)
+jimmy     console                   Tue Apr  4 02:10 - 07:36 (5+05:25)
+reboot    ~                         Tue Apr  4 02:09 
+root      console                   Tue Apr  4 02:01 - crash  (00:07)
+jimmy     ttys001                   Mon Apr  3 23:37 - crash  (02:32)
+jimmy     ttys000                   Mon Apr  3 17:06 - crash  (09:02)
+jimmy     ttys000                   Mon Apr  3 16:53 - crash  (09:15)
+jimmy     ttys000                   Mon Apr  3 09:19 - crash  (16:50)
+jimmy     ttys000                   Mon Apr  3 08:25 - crash  (17:44)
+jimmy     ttys000                   Mon Apr  3 08:21 - crash  (17:47)
+jimmy     ttys001                   Sun Apr  2 23:29 - crash (1+02:39)
+jimmy     ttys001                   Sun Apr  2 23:25 - crash (1+02:44)
+jimmy     ttys000                   Sun Apr  2 23:24 - crash (1+02:44)
+jimmy     ttys000                   Sun Apr  2 16:29 - crash (1+09:40)
+jimmy     ttys000                   Sun Apr  2 16:19 - crash (1+09:50)
+jimmy     ttys000                   Sun Apr  2 15:15 - crash (1+10:53)
+jimmy     ttys000                   Sun Apr  2 15:27 - crash (1+10:42)
+jimmy     ttys002                   Sun Apr  2 15:22 - crash (1+10:47)
+jimmy     ttys000                   Sun Apr  2 15:15 - 15:15  (00:00)
+jimmy     ttys000                   Sun Apr  2 15:13 - crash (1+10:56)
+jimmy     ttys001                   Sun Apr  2 15:11 - crash (1+10:57)
+jimmy     ttys000                   Sat Apr  1 11:10 - crash (2+14:59)
+jimmy     ttys000                   Sat Apr  1 10:48 - crash (2+15:21)
+jimmy     ttys002                   Fri Mar 31 22:27 - crash (3+03:41)
+jimmy     ttys001                   Fri Mar 31 22:18 - crash (3+03:51)
+jimmy     ttys003                   Fri Mar 31 21:26 - crash (3+04:42)
+jimmy     ttys000                   Fri Mar 31 21:00 - crash (3+05:08)
+jimmy     ttys000                   Fri Mar 31 17:49 - crash (3+08:19)
+jimmy     ttys000                   Fri Mar 31 17:49 - crash (3+08:19)
+jimmy     ttys000                   Fri Mar 31 17:25 - crash (3+08:44)
+jimmy     ttys000                   Fri Mar 31 17:14 - crash (3+08:55)
+jimmy     ttys001                   Fri Mar 31 17:05 - crash (3+09:04)
+jimmy     ttys000                   Fri Mar 31 16:53 - crash (3+09:16)
+jimmy     ttys000                   Fri Mar 31 16:46 - crash (3+09:22)
+jimmy     ttys000                   Fri Mar 31 08:40 - crash (3+17:29)
+jimmy     ttys000                   Wed Mar 29 09:44 - crash (5+16:25)
+jimmy     ttys000                   Wed Mar 29 09:43 - crash (5+16:25)
+jimmy     ttys000                   Wed Mar 29 08:37 - crash (5+17:31)
+jimmy     ttys003                   Wed Mar 29 08:29 - crash (5+17:39)
+jimmy     ttys000                   Wed Mar 29 08:26 - crash (5+17:42)
+jimmy     ttys000                   Wed Mar 29 07:28 - crash (5+18:40)
+jimmy     ttys000                   Tue Mar 28 15:55 - crash (6+10:13)
+jimmy     ttys001                   Tue Mar 28 14:12 - crash (6+11:57)
+jimmy     ttys000                   Tue Mar 28 14:04 - crash (6+12:05)
+jimmy     ttys000                   Tue Mar 28 13:48 - crash (6+12:20)
+jimmy     ttys000                   Tue Mar 28 12:21 - crash (6+13:48)
+jimmy     ttys000                   Tue Mar 28 10:03 - crash (6+16:06)
+jimmy     ttys000                   Tue Mar 28 08:46 - crash (6+17:23)
+jimmy     ttys002                   Mon Mar 27 10:57 - crash (7+15:12)
+jimmy     ttys000                   Mon Mar 27 10:40 - crash (7+15:28)
+jimmy     console                   Mon Mar 27 10:22 - crash (7+15:46)
+reboot    ~                         Sun Mar 26 10:19 
+jimmy     ttys002                   Sat Mar 25 16:57 - crash  (17:22)
+jimmy     ttys000                   Sat Mar 25 14:50 - crash  (19:29)
+jimmy     ttys000                   Sat Mar 25 14:35 - crash  (19:44)
+jimmy     ttys000                   Sat Mar 25 14:07 - crash  (20:12)
+jimmy     ttys000                   Sat Mar 25 13:57 - crash  (20:22)
+jimmy     ttys003                   Sat Mar 25 13:43 - crash  (20:36)
+jimmy     ttys007                   Fri Mar 24 09:40 - crash (2+00:39)
+jimmy     ttys005                   Fri Mar 24 09:38 - crash (2+00:41)
+jimmy     ttys003                   Fri Mar 24 09:37 - crash (2+00:42)
+jimmy     ttys002                   Fri Mar 24 09:37 - crash (2+00:42)
+jimmy     ttys008                   Fri Mar 24 09:30 - crash (2+00:49)
+jimmy     ttys007                   Fri Mar 24 09:30 - crash (2+00:49)
+jimmy     ttys007                   Fri Mar 24 09:26 - crash (2+00:53)
+jimmy     ttys006                   Fri Mar 24 09:22 - crash (2+00:57)
+jimmy     ttys002                   Fri Mar 24 09:22 - crash (2+00:57)
+jimmy     ttys002                   Fri Mar 24 09:20 - crash (2+00:59)
+jimmy     ttys005                   Fri Mar 24 09:20 - crash (2+00:59)
+jimmy     ttys004                   Fri Mar 24 09:19 - crash (2+01:00)
+jimmy     ttys003                   Fri Mar 24 09:19 - crash (2+01:00)
+jimmy     ttys004                   Fri Mar 24 09:18 - crash (2+01:01)
+jimmy     ttys003                   Fri Mar 24 09:18 - crash (2+01:01)
+jimmy     ttys002                   Fri Mar 24 09:07 - crash (2+01:11)
+jimmy     ttys001                   Fri Mar 24 09:07 - crash (2+01:12)
+jimmy     ttys001                   Fri Mar 24 09:07 - crash (2+01:12)
+jimmy     ttys000                   Fri Mar 24 09:03 - crash (2+01:16)
+jimmy     ttys000                   Thu Mar 23 13:46 - crash (2+20:33)
+jimmy     ttys000                   Thu Mar 23 09:38 - crash (3+00:41)
+jimmy     ttys001                   Thu Mar 23 08:40 - crash (3+01:39)
+jimmy     ttys000                   Wed Mar 22 09:42 - crash (4+00:37)
+jimmy     ttys000                   Tue Mar 21 18:00 - crash (4+16:19)
+jimmy     ttys000                   Tue Mar 21 11:52 - crash (4+22:27)
+jimmy     ttys000                   Tue Mar 21 10:27 - crash (4+23:52)
+jimmy     ttys003                   Tue Mar 21 08:27 - crash (5+01:52)
+jimmy     ttys000                   Tue Mar 21 08:27 - crash (5+01:52)
+jimmy     ttys002                   Tue Mar 21 08:05 - crash (5+02:14)
+jimmy     ttys000                   Mon Mar 20 22:22 - crash (5+11:57)
+jimmy     ttys002                   Mon Mar 20 22:21 - crash (5+11:58)
+jimmy     ttys000                   Mon Mar 20 22:21 - crash (5+11:58)
+jimmy     ttys003                   Mon Mar 20 22:18 - crash (5+12:01)
+jimmy     ttys003                   Mon Mar 20 19:09 - crash (5+15:10)
+jimmy     ttys000                   Mon Mar 20 16:05 - crash (5+18:14)
+jimmy     ttys000                   Mon Mar 20 16:00 - crash (5+18:19)
+jimmy     ttys004                   Mon Mar 20 15:02 - crash (5+19:17)
+jimmy     ttys001                   Mon Mar 20 14:58 - crash (5+19:21)
+jimmy     ttys000                   Mon Mar 20 11:33 - crash (5+22:46)
+jimmy     ttys002                   Sun Mar 19 09:56 - crash (7+00:23)
+jimmy     ttys001                   Sun Mar 19 08:59 - crash (7+01:20)
+jimmy     ttys000                   Sun Mar 19 00:03 - crash (7+10:16)
+jimmy     ttys000                   Sat Mar 18 20:07 - crash (7+14:11)
+jimmy     ttys005                   Sat Mar 18 18:57 - crash (7+15:22)
+jimmy     ttys000                   Sat Mar 18 09:01 - crash (8+01:18)
+jimmy     ttys001                   Sat Mar 18 08:39 - crash (8+01:40)
+jimmy     ttys000                   Sat Mar 18 07:46 - crash (8+02:33)
+jimmy     console                   Sat Mar 18 00:48 - crash (8+09:31)
+reboot    ~                         Sat Mar 18 00:48 
+jimmy     ttys000                   Sat Mar 18 00:46 - crash  (00:01)
+jimmy     console                   Sat Mar 18 00:44 - crash  (00:03)
+reboot    ~                         Sat Mar 18 00:43 
+jimmy     ttys001                   Sat Mar 18 00:37 - crash  (00:06)
+jimmy     ttys000                   Sat Mar 18 00:04 - crash  (00:39)
+jimmy     ttys000                   Sat Mar 18 00:04 - crash  (00:39)
+jimmy     console                   Sat Mar 18 00:03 - crash  (00:39)
+reboot    ~                         Sat Mar 18 00:03 
+jimmy     ttys001                   Sat Mar 18 00:02 - crash  (00:00)
+jimmy     ttys001                   Sat Mar 18 00:02 - crash  (00:00)
+jimmy     ttys000                   Fri Mar 17 18:00 - crash  (06:03)
+jimmy     ttys000                   Fri Mar 17 17:58 - crash  (06:05)
+jimmy     ttys000                   Fri Mar 17 17:54 - crash  (06:08)
+jimmy     ttys000                   Fri Mar 17 14:09 - crash  (09:54)
+jimmy     ttys001                   Fri Mar 17 13:09 - crash  (10:54)
+jimmy     ttys002                   Fri Mar 17 11:29 - crash  (12:34)
+jimmy     ttys000                   Fri Mar 17 10:02 - crash  (14:00)
+jimmy     ttys000                   Thu Mar 16 17:18 - crash (1+06:45)
+jimmy     ttys002                   Thu Mar 16 17:11 - crash (1+06:52)
+jimmy     ttys000                   Thu Mar 16 17:03 - crash (1+07:00)
+jimmy     console                   Thu Mar 16 17:03 - crash (1+07:00)
+jimmy     ttys004                   Thu Mar 16 16:58 - crash (1+07:05)
+jimmy     ttys002                   Thu Mar 16 16:43 - crash (1+07:20)
+jimmy     ttys002                   Thu Mar 16 16:31 - crash (1+07:31)
+jimmy     ttys003                   Thu Mar 16 16:20 - crash (1+07:42)
+jimmy     ttys001                   Thu Mar 16 16:19 - crash (1+07:44)
+jimmy     ttys005                   Thu Mar 16 15:39 - crash (1+08:24)
+jimmy     ttys004                   Thu Mar 16 14:28 - crash (1+09:34)
+jimmy     ttys003                   Thu Mar 16 14:28 - crash (1+09:35)
+jimmy     ttys001                   Thu Mar 16 14:14 - crash (1+09:49)
+jimmy     ttys001                   Thu Mar 16 12:47 - crash (1+11:15)
+jimmy     ttys001                   Thu Mar 16 12:18 - crash (1+11:44)
+jimmy     ttys002                   Thu Mar 16 12:18 - crash (1+11:45)
+jimmy     ttys001                   Thu Mar 16 12:14 - crash (1+11:49)
+jimmy     ttys000                   Thu Mar 16 12:14 - crash (1+11:49)
+jimmy     console                   Thu Mar 16 12:14 - crash (1+11:49)
+jimmy     ttys001                   Thu Mar 16 12:12 - crash (1+11:51)
+jimmy     ttys000                   Thu Mar 16 12:06 - crash (1+11:57)
+jimmy     console                   Thu Mar 16 12:06 - crash (1+11:57)
+reboot    ~                         Thu Mar 16 12:06 
+jimmy     ttys002                   Thu Mar 16 12:02 - crash  (00:03)
+jimmy     ttys001                   Thu Mar 16 11:53 - crash  (00:12)
+jimmy     ttys000                   Thu Mar 16 11:53 - crash  (00:12)
+jimmy     console                   Thu Mar 16 11:53 - crash  (00:12)
+jimmy     ttys003                   Thu Mar 16 11:30 - crash  (00:35)
+jimmy     ttys002                   Thu Mar 16 11:02 - crash  (01:03)
+jimmy     ttys005                   Thu Mar 16 10:38 - crash  (01:27)
+jimmy     ttys006                   Thu Mar 16 10:31 - crash  (01:34)
+jimmy     ttys005                   Thu Mar 16 10:31 - crash  (01:34)
+jimmy     ttys005                   Thu Mar 16 10:05 - crash  (02:00)
+jimmy     ttys004                   Thu Mar 16 10:02 - crash  (02:03)
+jimmy     ttys001                   Thu Mar 16 09:28 - crash  (02:37)
+jimmy     ttys005                   Thu Mar 16 09:18 - crash  (02:47)
+jimmy     ttys003                   Thu Mar 16 09:09 - crash  (02:56)
+jimmy     ttys003  192.168.1.101    Thu Mar 16 08:54 - crash  (03:11)
+jimmy     ttys002                   Thu Mar 16 08:53 - crash  (03:13)
+jimmy     ttys001                   Thu Mar 16 08:44 - crash  (03:21)
+jimmy     ttys001                   Wed Mar 15 22:15 - crash  (13:50)
+jimmy     ttys001                   Wed Mar 15 19:07 - crash  (16:58)
+jimmy     ttys000                   Wed Mar 15 19:04 - crash  (17:01)
+jimmy     console                   Wed Mar 15 19:04 - crash  (17:01)
+reboot    ~                         Wed Mar 15 19:04 
+jimmy     ttys004                   Sun Mar 12 10:27 - crash (3+08:36)
+jimmy     ttys005                   Sat Mar 11 22:12 - crash (3+20:51)
+jimmy     ttys005                   Sat Mar 11 22:12 - crash (3+20:51)
+jimmy     ttys006                   Sat Mar 11 22:05 - crash (3+20:58)
+jimmy     ttys005                   Sat Mar 11 21:58 - crash (3+21:05)
+jimmy     ttys003                   Sat Mar 11 20:31 - crash (3+22:32)
+jimmy     ttys002                   Sat Mar 11 20:31 - crash (3+22:32)
+jimmy     ttys000                   Sat Mar 11 20:29 - crash (3+22:34)
+jimmy     ttys002                   Fri Mar 10 10:27 - crash (5+08:36)
+jimmy     ttys002                   Thu Mar  9 13:05 - crash (6+05:58)
+jimmy     ttys000                   Thu Mar  9 13:02 - crash (6+06:01)
+jimmy     ttys001                   Thu Mar  9 12:00 - crash (6+07:03)
+jimmy     ttys000                   Thu Mar  9 12:00 - crash (6+07:03)
+jimmy     ttys002                   Thu Mar  9 09:52 - crash (6+09:11)
+jimmy     ttys000                   Thu Mar  9 09:40 - crash (6+09:23)
+jimmy     ttys000                   Thu Mar  9 09:35 - crash (6+09:28)
+jimmy     console                   Thu Mar  9 09:35 - crash (6+09:28)
+reboot    ~                         Thu Mar  9 09:35 
+jimmy     ttys000                   Thu Mar  9 09:32 - crash  (00:02)
+jimmy     console                   Thu Mar  9 09:32 - crash  (00:02)
+reboot    ~                         Thu Mar  9 09:32 
+jimmy     ttys001                   Thu Mar  9 09:32 - crash  (00:00)
+jimmy     ttys000                   Thu Mar  9 09:32 - crash  (00:00)
+jimmy     console                   Thu Mar  9 09:31 - crash  (00:00)
+reboot    ~                         Thu Mar  9 09:31 
+jimmy     ttys001                   Thu Mar  9 09:09 - crash  (00:22)
+jimmy     ttys005                   Thu Mar  9 09:08 - crash  (00:23)
+jimmy     ttys003                   Wed Mar  8 21:39 - crash  (11:52)
+jimmy     ttys004                   Wed Mar  8 21:32 - crash  (11:59)
+jimmy     ttys003                   Wed Mar  8 21:32 - crash  (11:59)
+jimmy     ttys002                   Wed Mar  8 21:27 - crash  (12:04)
+jimmy     ttys001                   Wed Mar  8 21:22 - crash  (12:08)
+jimmy     ttys005                   Wed Mar  8 21:09 - crash  (12:22)
+jimmy     ttys004                   Wed Mar  8 21:06 - crash  (12:25)
+jimmy     ttys003                   Wed Mar  8 21:04 - crash  (12:26)
+jimmy     ttys002                   Wed Mar  8 21:00 - crash  (12:30)
+jimmy     ttys001                   Wed Mar  8 20:48 - crash  (12:43)
+jimmy     ttys000                   Wed Mar  8 20:13 - crash  (13:17)
+jimmy     console                   Wed Mar  8 20:13 - crash  (13:18)
+jimmy     ttys004                   Wed Mar  8 20:07 - crash  (13:24)
+jimmy     ttys004                   Sun Mar  5 18:12 - crash (3+15:18)
+jimmy     ttys004                   Sun Mar  5 13:21 - crash (3+20:09)
+jimmy     ttys006                   Sat Mar  4 21:23 - crash (4+12:08)
+jimmy     ttys004                   Sat Mar  4 21:13 - crash (4+12:17)
+jimmy     ttys005                   Sat Mar  4 20:34 - crash (4+12:56)
+jimmy     ttys005                   Sat Mar  4 20:31 - crash (4+13:00)
+jimmy     ttys004                   Sat Mar  4 20:05 - crash (4+13:26)
+jimmy     ttys003                   Sat Mar  4 16:38 - crash (4+16:53)
+jimmy     ttys002                   Sat Mar  4 16:22 - crash (4+17:09)
+jimmy     ttys001                   Fri Mar  3 21:33 - crash (5+11:58)
+jimmy     ttys009                   Fri Mar  3 21:09 - crash (5+12:21)
+jimmy     ttys008                   Fri Mar  3 20:47 - crash (5+12:44)
+jimmy     ttys007                   Fri Mar  3 20:35 - crash (5+12:56)
+jimmy     ttys006                   Fri Mar  3 20:24 - crash (5+13:07)
+jimmy     ttys005                   Fri Mar  3 20:16 - crash (5+13:14)
+jimmy     ttys003                   Fri Mar  3 19:47 - crash (5+13:44)
+jimmy     ttys002                   Fri Mar  3 17:57 - crash (5+15:33)
+jimmy     ttys005                   Fri Mar  3 17:57 - crash (5+15:34)
+jimmy     ttys005                   Fri Mar  3 17:44 - crash (5+15:46)
+jimmy     ttys004                   Thu Mar  2 18:46 - crash (6+14:45)
+jimmy     ttys004                   Thu Mar  2 08:50 - crash (7+00:40)
+jimmy     ttys001                   Thu Mar  2 08:45 - crash (7+00:46)
+jimmy     ttys005                   Thu Mar  2 08:39 - crash (7+00:52)
+jimmy     ttys004                   Thu Mar  2 08:32 - crash (7+00:58)
+jimmy     ttys003                   Thu Mar  2 08:31 - crash (7+00:59)
+jimmy     ttys001                   Wed Mar  1 23:38 - crash (7+09:53)
+jimmy     ttys002                   Wed Mar  1 22:55 - crash (7+10:36)
+jimmy     ttys001                   Wed Mar  1 22:50 - crash (7+10:41)
+jimmy     ttys000                   Wed Mar  1 22:50 - crash (7+10:41)
+jimmy     console                   Wed Mar  1 22:49 - crash (7+10:41)
+reboot    ~                         Wed Mar  1 22:49 
+jimmy     ttys005                   Wed Mar  1 18:54 - crash  (03:55)
+jimmy     ttys003                   Wed Mar  1 18:53 - crash  (03:55)
+jimmy     ttys003                   Wed Mar  1 18:51 - crash  (03:57)
+jimmy     ttys004                   Wed Mar  1 18:50 - crash  (03:58)
+jimmy     ttys003                   Wed Mar  1 18:47 - crash  (04:02)
+jimmy     ttys001                   Wed Mar  1 18:41 - crash  (04:08)
+jimmy     ttys003                   Wed Mar  1 18:40 - crash  (04:08)
+jimmy     ttys002                   Wed Mar  1 18:39 - crash  (04:10)
+jimmy     ttys001                   Wed Mar  1 18:38 - crash  (04:11)
+jimmy     ttys000                   Wed Mar  1 18:38 - crash  (04:11)
+jimmy     console                   Wed Mar  1 18:38 - crash  (04:11)
+jimmy     ttys004                   Tue Feb 28 14:02 - crash (1+08:47)
+jimmy     ttys003                   Tue Feb 28 13:54 - crash (1+08:55)
+jimmy     ttys002                   Tue Feb 28 13:39 - crash (1+09:10)
+jimmy     ttys001                   Tue Feb 28 12:42 - crash (1+10:06)
+jimmy     ttys000                   Mon Feb 27 23:17 - crash (1+23:32)
+jimmy     ttys000                   Mon Feb 27 23:02 - crash (1+23:47)
+jimmy     console                   Mon Feb 27 23:02 - crash (1+23:47)
+reboot    ~                         Mon Feb 27 23:00 
+jimmy     ttys000                   Mon Feb 27 22:46 - crash  (00:14)
+jimmy     ttys000                   Mon Feb 27 22:46 - crash  (00:14)
+jimmy     console                   Mon Feb 27 22:46 - crash  (00:14)
+jimmy     ttys000                   Sun Feb 26 15:06 - crash (1+07:54)
+jimmy     ttys000                   Sun Feb 26 15:05 - crash (1+07:55)
+jimmy     ttys000                   Sun Feb 26 15:05 - crash (1+07:55)
+jimmy     console                   Sun Feb 26 15:05 - crash (1+07:55)
+reboot    ~                         Sun Feb 26 15:05 
+jimmy     ttys000                   Sun Feb 26 15:00 - crash  (00:04)
+jimmy     ttys000                   Sun Feb 26 15:00 - crash  (00:04)
+jimmy     console                   Sun Feb 26 15:00 - crash  (00:04)
+jimmy     ttys001                   Sun Feb 26 14:05 - crash  (00:59)
+jimmy     ttys001                   Sun Feb 26 14:02 - crash  (01:02)
+jimmy     ttys002                   Sun Feb 26 10:46 - crash  (04:18)
+jimmy     ttys001                   Sun Feb 26 10:34 - crash  (04:30)
+jimmy     ttys001                   Sun Feb 26 10:10 - crash  (04:54)
+jimmy     ttys001                   Sun Feb 26 10:07 - crash  (04:57)
+jimmy     ttys001                   Sun Feb 26 10:06 - crash  (04:58)
+jimmy     ttys000                   Sat Feb 25 22:25 - crash  (16:39)
+jimmy     ttys002                   Sat Feb 25 21:55 - crash  (17:09)
+jimmy     ttys003                   Sat Feb 25 21:47 - crash  (17:17)
+jimmy     ttys002                   Sat Feb 25 21:41 - crash  (17:23)
+jimmy     ttys000                   Sat Feb 25 20:36 - crash  (18:28)
+jimmy     ttys000                   Sat Feb 25 19:50 - crash  (19:15)
+jimmy     ttys000                   Sat Feb 25 14:44 - crash (1+00:20)
+jimmy     ttys000                   Sat Feb 25 07:48 - crash (1+07:16)
+jimmy     ttys000                   Fri Feb 24 18:02 - crash (1+21:02)
+jimmy     ttys000                   Fri Feb 24 14:42 - crash (2+00:22)
+jimmy     ttys000                   Fri Feb 24 09:54 - crash (2+05:10)
+jimmy     ttys000                   Fri Feb 24 09:27 - crash (2+05:37)
+jimmy     ttys003                   Wed Feb 22 07:36 - crash (4+07:28)
+jimmy     ttys000                   Tue Feb 21 20:41 - crash (4+18:24)
+jimmy     ttys000                   Sun Feb 19 19:39 - crash (6+19:25)
+jimmy     ttys000                   Sun Feb 19 19:05 - crash (6+19:59)
+jimmy     ttys000                   Sun Feb 19 17:34 - crash (6+21:30)
+jimmy     console                   Sun Feb 19 17:34 - crash (6+21:30)
+jimmy     ttys000                   Sun Feb 19 17:33 - crash (6+21:31)
+jimmy     ttys000                   Sat Feb 18 10:43 - crash (8+04:21)
+jimmy     ttys000                   Fri Feb 17 23:06 - crash (8+15:58)
+jimmy     ttys000                   Fri Feb 17 22:58 - crash (8+16:06)
+jimmy     ttys000                   Fri Feb 17 22:39 - crash (8+16:26)
+jimmy     ttys000                   Thu Feb 16 23:09 - crash (9+15:56)
+jimmy     ttys000                   Wed Feb 15 08:29 - crash (11+06:35)
+jimmy     ttys000                   Tue Feb 14 19:27 - crash (11+19:37)
+jimmy     ttys001                   Tue Feb 14 18:18 - crash (11+20:46)
+jimmy     ttys000                   Mon Feb 13 20:32 - crash (12+18:32)
+jimmy     ttys000                   Mon Feb 13 19:54 - crash (12+19:10)
+jimmy     ttys000                   Mon Feb 13 19:36 - crash (12+19:28)
+jimmy     ttys000                   Mon Feb 13 15:22 - crash (12+23:42)
+jimmy     ttys001                   Mon Feb 13 15:18 - crash (12+23:46)
+jimmy     ttys000                   Mon Feb 13 14:24 - crash (13+00:40)
+jimmy     ttys000                   Mon Feb 13 13:02 - crash (13+02:02)
+jimmy     ttys000                   Mon Feb 13 10:21 - crash (13+04:43)
+jimmy     ttys000                   Mon Feb 13 10:13 - crash (13+04:51)
+jimmy     ttys000                   Sun Feb 12 23:10 - crash (13+15:54)
+jimmy     ttys000                   Sun Feb 12 23:05 - crash (13+15:59)
+jimmy     ttys000                   Sun Feb 12 22:21 - crash (13+16:43)
+jimmy     ttys000                   Sun Feb 12 18:09 - crash (13+20:55)
+jimmy     ttys002                   Sun Feb 12 17:43 - crash (13+21:21)
+jimmy     ttys000                   Sun Feb 12 17:43 - crash (13+21:21)
+jimmy     ttys001                   Sun Feb 12 16:42 - crash (13+22:22)
+jimmy     ttys000                   Sun Feb 12 16:41 - crash (13+22:23)
+jimmy     ttys003                   Sun Feb 12 16:40 - crash (13+22:24)
+jimmy     ttys002                   Sun Feb 12 16:37 - crash (13+22:27)
+jimmy     ttys001                   Sun Feb 12 16:33 - crash (13+22:31)
+jimmy     ttys000                   Sun Feb 12 16:20 - crash (13+22:44)
+jimmy     ttys000                   Sat Feb 11 20:58 - crash (14+18:06)
+jimmy     ttys000                   Sat Feb 11 19:18 - crash (14+19:46)
+jimmy     ttys000                   Sat Feb 11 18:16 - crash (14+20:48)
+jimmy     ttys000                   Sat Feb 11 15:30 - crash (14+23:34)
+jimmy     ttys000                   Sat Feb 11 14:43 - crash (15+00:21)
+jimmy     ttys000                   Sat Feb 11 14:37 - crash (15+00:27)
+jimmy     ttys000                   Sat Feb 11 14:22 - crash (15+00:42)
+jimmy     ttys003                   Sat Feb 11 14:21 - crash (15+00:43)
+jimmy     ttys002                   Sat Feb 11 14:17 - crash (15+00:47)
+jimmy     ttys000                   Sat Feb 11 14:05 - crash (15+00:59)
+jimmy     ttys000                   Sat Feb 11 12:04 - crash (15+03:00)
+jimmy     console                   Sat Feb 11 12:03 - crash (15+03:01)
+reboot    ~                         Sat Feb 11 12:03 
+jimmy     ttys000                   Sat Feb 11 10:53 - crash  (01:09)
+jimmy     ttys000                   Sat Feb 11 10:28 - crash  (01:34)
+jimmy     ttys000                   Sat Feb 11 10:22 - crash  (01:40)
+jimmy     ttys001                   Sat Feb 11 10:22 - crash  (01:41)
+jimmy     ttys000                   Sat Feb 11 10:00 - crash  (02:03)
+jimmy     ttys001                   Fri Feb 10 18:58 - crash  (17:04)
+jimmy     ttys000                   Fri Feb 10 18:46 - crash  (17:16)
+jimmy     ttys000                   Fri Feb 10 17:36 - crash  (18:26)
+jimmy     ttys000                   Fri Feb 10 17:34 - crash  (18:28)
+jimmy     ttys001                   Fri Feb 10 17:34 - crash  (18:28)
+jimmy     ttys000                   Fri Feb 10 17:34 - crash  (18:28)
+jimmy     ttys001                   Fri Feb 10 17:33 - crash  (18:30)
+jimmy     ttys000                   Fri Feb 10 17:28 - crash  (18:35)
+jimmy     ttys001                   Fri Feb 10 17:27 - crash  (18:35)
+jimmy     ttys000                   Fri Feb 10 17:26 - crash  (18:37)
+jimmy     ttys000                   Fri Feb 10 17:20 - crash  (18:42)
+jimmy     ttys001                   Fri Feb 10 17:17 - crash  (18:45)
+jimmy     ttys000                   Fri Feb 10 17:14 - crash  (18:48)
+jimmy     ttys001                   Fri Feb 10 11:43 - crash (1+00:20)
+jimmy     ttys005                   Fri Feb 10 11:43 - crash (1+00:20)
+jimmy     ttys004                   Fri Feb 10 11:42 - crash (1+00:20)
+jimmy     ttys001                   Fri Feb 10 11:35 - crash (1+00:27)
+jimmy     ttys003                   Fri Feb 10 11:16 - crash (1+00:47)
+jimmy     ttys001                   Fri Feb 10 11:15 - crash (1+00:47)
+jimmy     ttys000                   Fri Feb 10 11:11 - crash (1+00:51)
+jimmy     ttys000                   Fri Feb 10 10:35 - crash (1+01:27)
+jimmy     ttys001                   Fri Feb 10 10:23 - crash (1+01:39)
+jimmy     ttys000                   Fri Feb 10 09:58 - crash (1+02:04)
+jimmy     ttys000                   Thu Feb  9 13:23 - crash (1+22:39)
+jimmy     ttys001                   Wed Feb  8 11:13 - crash (3+00:49)
+jimmy     ttys001                   Wed Feb  8 09:10 - crash (3+02:52)
+jimmy     ttys001                   Wed Feb  8 00:33 - crash (3+11:30)
+jimmy     ttys000                   Wed Feb  8 00:26 - crash (3+11:36)
+jimmy     ttys001                   Tue Feb  7 23:58 - crash (3+12:04)
+jimmy     ttys000                   Tue Feb  7 23:01 - crash (3+13:01)
+jimmy     ttys000                   Tue Feb  7 18:14 - crash (3+17:49)
+jimmy     ttys000                   Tue Feb  7 17:58 - crash (3+18:05)
+jimmy     console                   Tue Feb  7 17:58 - crash (3+18:05)
+jimmy     ttys001                   Tue Feb  7 17:48 - crash (3+18:14)
+jimmy     ttys002                   Tue Feb  7 13:29 - crash (3+22:34)
+jimmy     ttys001                   Tue Feb  7 13:27 - crash (3+22:36)
+jimmy     ttys000                   Tue Feb  7 13:26 - crash (3+22:36)
+jimmy     console                   Tue Feb  7 13:26 - crash (3+22:37)
+reboot    ~                         Tue Feb  7 13:25 
+root      console                   Tue Feb  7 13:25 - crash  (00:00)
+jimmy     ttys003                   Tue Feb  7 13:22 - crash  (00:03)
+jimmy     ttys002                   Tue Feb  7 13:21 - crash  (00:04)
+jimmy     ttys001                   Tue Feb  7 13:21 - crash  (00:04)
+jimmy     ttys000                   Tue Feb  7 13:21 - crash  (00:04)
+jimmy     console                   Tue Feb  7 13:21 - crash  (00:04)
+jimmy     ttys002                   Tue Feb  7 13:19 - crash  (00:06)
+jimmy     ttys001                   Tue Feb  7 13:18 - crash  (00:07)
+jimmy     ttys002                   Tue Feb  7 13:12 - crash  (00:13)
+jimmy     ttys001                   Tue Feb  7 13:03 - crash  (00:22)
+jimmy     ttys004                   Tue Feb  7 13:01 - crash  (00:24)
+jimmy     ttys003                   Tue Feb  7 12:59 - crash  (00:25)
+jimmy     ttys002                   Tue Feb  7 12:58 - crash  (00:26)
+jimmy     ttys001                   Tue Feb  7 12:03 - crash  (01:22)
+jimmy     ttys000                   Tue Feb  7 11:53 - crash  (01:32)
+jimmy     console                   Tue Feb  7 11:53 - crash  (01:32)
+jimmy     ttys001                   Mon Feb  6 22:51 - crash  (14:34)
+jimmy     ttys001                   Mon Feb  6 22:38 - crash  (14:47)
+jimmy     ttys002                   Mon Feb  6 19:03 - crash  (18:22)
+jimmy     ttys001                   Mon Feb  6 18:10 - crash  (19:15)
+jimmy     ttys001                   Mon Feb  6 12:46 - crash (1+00:39)
+jimmy     ttys001                   Sun Feb  5 17:30 - crash (1+19:55)
+jimmy     ttys001                   Sun Feb  5 15:49 - crash (1+21:35)
+jimmy     ttys001                   Sun Feb  5 15:49 - crash (1+21:36)
+jimmy     ttys001                   Sun Feb  5 15:25 - crash (1+22:00)
+jimmy     ttys000                   Sun Feb  5 14:58 - crash (1+22:27)
+jimmy     console                   Sun Feb  5 14:58 - crash (1+22:27)
+jimmy     ttys000                   Sun Feb  5 12:55 - crash (2+00:30)
+jimmy     ttys002                   Sun Feb  5 12:55 - crash (2+00:30)
+jimmy     ttys000                   Sun Feb  5 11:52 - crash (2+01:33)
+jimmy     ttys000                   Sun Feb  5 11:43 - crash (2+01:41)
+jimmy     ttys000                   Sun Feb  5 11:38 - crash (2+01:47)
+jimmy     console                   Sun Feb  5 11:37 - crash (2+01:48)
+reboot    ~                         Sun Feb  5 11:36 
+
+wtmp begins Sun Feb  5 11:36 ]]></value>
+	</item>
+	<item flag="20">
+		<command><![CDATA[cat /etc/syslog.conf]]></command>
+		<value><![CDATA[# Note that flat file logs are now configured in /etc/asl.conf
+
+install.*						@127.0.0.1:32376
+
+*usbmux* /dev/null
+
+# used for the adaptive firewall: man emlog.pl
+auth.*                                @127.0.0.1:60762
+]]></value>
+	</item>
+	<item flag="21">
+		<command><![CDATA[echo 待定]]></command>
+		<value><![CDATA[待定]]></value>
+	</item>
+	<item flag="22">
+		<command><![CDATA[cat /var/log/secure]]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="23">
+		<command><![CDATA[who /var/log/wtmp]]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="24">
+		<command><![CDATA[cat /var/log/messages]]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="25">
+		<command><![CDATA[echo 待定]]></command>
+		<value><![CDATA[待定]]></value>
+	</item>
+	<item flag="26">
+		<command><![CDATA[ls -l /var/log]]></command>
+		<value><![CDATA[total 40584
+drwxr-xr-x   2 root             wheel                  68 Dec  6  2016 Bluetooth
+drwxr-xr-x   2 root             wheel                  68 Sep 20  2016 CoreDuet
+drwxrwx---  33 root             admin                1122 Aug 25 11:00 DiagnosticMessages
+-rw-------   1 root             wheel              172032 Feb 24  2017 SleepWakeStacks.bin
+-rw-r--r--   1 root             wheel                   0 Feb  5  2017 alf.log
+drwxr-xr-x   7 root             wheel                 238 Aug 18 22:19 apache2
+-rw-r--r--   1 root             wheel                   0 Feb  5  2017 appfirewall.log
+drwxr-xr-x  27 root             wheel                 918 Aug 25 09:42 asl
+drwx------   3 root             wheel                 102 Feb  5  2017 com.apple.revisiond
+drwxr-xr-x   2 root             wheel                  68 Sep 24  2016 com.apple.xpc.launchd
+-rw-r--r--   1 root             wheel            10154725 Aug 25 15:34 corecaptured.log
+drwxr-xr-x   5 root             wheel                 170 Feb  5  2017 cups
+-rw-r--r--   1 root             wheel              799584 Aug 25 09:49 daily.out
+lrwxr-xr-x   1 _devicemgr       _devicemgr             28 Aug 18 17:54 devicemgr -> /Library/Logs/ProfileManager
+-rw-r--r--   1 _displaypolicyd  _displaypolicyd      6699 Aug 15 17:19 displaypolicyd.log
+-rw-r--r--   1 root             wheel                   0 Feb  5  2017 displaypolicyd.stdout.log
+drwxr-xr-x   2 root             wheel                  68 Jul 31  2016 emond
+drwxr-xr-x@ 11 root             admin                 374 Aug 25 10:11 eventmonitor
+-rw-r--r--   1 root             wheel              161890 Aug 25 14:04 fsck_hfs.log
+-rw-r--r--   1 root             wheel               32096 Aug 25 13:25 getsslpassphrase.log
+-rw-r--r--@  1 root             wheel             4526736 Aug 25 16:36 install.log
+-rw-r--r--   1 root             admin                  20 Aug 22 09:17 mail.log.0.gz
+-rw-r--r--   1 root             admin                  20 Aug 20 00:05 mail.log.1.gz
+-rw-r--r--   1 root             admin                  20 Aug 19 07:21 mail.log.2.gz
+-rw-r--r--   1 root             wheel                2689 Aug 13 15:49 monthly.out
+-rw-r-----   1 root             admin                4228 Aug 19 12:22 opendirectoryd.log
+-rw-r-----   1 root             admin                8186 Aug 15 17:19 opendirectoryd.log.0
+-rw-r-----   1 root             admin               31244 Aug 15 17:14 opendirectoryd.log.1
+-rw-r-----   1 root             admin               19544 Aug 15 09:55 opendirectoryd.log.2
+-rw-r-----   1 root             admin                2898 Aug 11 09:43 opendirectoryd.log.3
+-rw-r-----   1 root             admin                2898 Jul 29 19:03 opendirectoryd.log.4
+-rw-r-----   1 root             admin                2898 Jul 29 09:46 opendirectoryd.log.5
+-rw-r-----   1 root             admin                2898 Jul 25 11:51 opendirectoryd.log.6
+-rw-r-----   1 root             admin                2898 Jul 20 14:26 opendirectoryd.log.7
+-rw-r-----   1 root             admin               33580 Jul 20 14:26 opendirectoryd.log.8
+-rw-r-----   1 root             admin                2898 Jul 19 13:12 opendirectoryd.log.9
+drwxr-xr-x  18 root             admin                 612 Aug 25 09:42 powermanagement
+drwxr-xr-x   2 root             wheel                  68 Oct 20  2016 ppp
+-rw-r--r--   1 root             wheel              240877 May  8 16:04 ppp.log
+-rw-------   1 root             wheel                2204 Apr 25 12:22 racoon.log
+drwx------   2 root             wheel                  68 Aug 18 17:53 radius
+drwxrw----   4 root             wheel                 136 Aug 22 17:45 server_backup
+-rw-r-----@  1 root             admin              233133 Aug 25 17:00 system.log
+-rw-r-----   1 root             admin               35803 Aug 25 09:42 system.log.0.gz
+-rw-r-----   1 root             admin               34886 Aug 24 09:33 system.log.1.gz
+-rw-r-----   1 root             admin               41825 Aug 23 09:30 system.log.2.gz
+-rw-r-----   1 root             admin               39951 Aug 22 09:17 system.log.3.gz
+-rw-r-----   1 root             admin               16207 Aug 21 01:32 system.log.4.gz
+-rw-r-----   1 root             admin               42942 Aug 20 00:05 system.log.5.gz
+-rw-r-----   1 root             admin               58913 Aug 19 07:21 system.log.6.gz
+drwxr-xr-x   2 _timezone        _timezone              68 Sep 24  2016 timezone
+drwxr-xr-x   2 _uucp            wheel                  68 Jul 31  2016 uucp
+-rw-r--r--   1 root             wheel             3163096 Aug 25 14:09 vnetlib
+-rw-r--r--   1 root             wheel                2784 Aug 19 10:16 weekly.out
+-rw-r--r--   1 root             admin              497309 Aug 25 16:55 wifi.log
+-rw-r-----   1 root             admin                4472 Aug 21 00:30 wifi.log.0.bz2
+-rw-r-----   1 root             admin               75334 Aug 20 00:35 wifi.log.1.bz2
+-rw-r-----   1 root             admin               20689 Jul 13 00:00 wifi.log.10.bz2
+-rw-r-----   1 root             admin               10886 Aug 14 00:23 wifi.log.2.bz2
+-rw-r-----   1 root             admin               29333 Aug 13 00:27 wifi.log.3.bz2
+-rw-r-----   1 root             admin               36486 Aug  6 00:30 wifi.log.4.bz2
+-rw-r-----   1 root             admin                3138 Aug  3 00:30 wifi.log.5.bz2
+-rw-r-----   1 root             admin                8541 Aug  2 00:43 wifi.log.6.bz2
+-rw-r-----   1 root             admin               23669 Aug  1 00:56 wifi.log.7.bz2
+-rw-r-----   1 root             admin               86598 Jul 29 00:30 wifi.log.8.bz2
+-rw-r-----   1 root             admin                3733 Jul 14 00:30 wifi.log.9.bz2]]></value>
+	</item>
+	<item flag="27">
+		<command><![CDATA[echo 待定]]></command>
+		<value><![CDATA[待定]]></value>
+	</item>
+	<item flag="28">
+		<command><![CDATA[cat /etc/syslog.conf | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[install.*						@127.0.0.1:32376
+*usbmux* /dev/null
+auth.*                                @127.0.0.1:60762]]></value>
+	</item>
+	<item flag="29">
+		<command><![CDATA[echo 待定]]></command>
+		<value><![CDATA[待定]]></value>
+	</item>
+	<item flag="30">
+		<command><![CDATA[cat /etc/hosts.allow /etc/hosts.deny |grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="31">
+		<command><![CDATA[cat /etc/profile | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[if [ -x /usr/libexec/path_helper ]; then
+	eval `/usr/libexec/path_helper -s`
+fi
+if [ "${BASH-no}" != "no" ]; then
+	[ -r /etc/bashrc ] && . /etc/bashrc
+fi]]></value>
+	</item>
+	<item flag="32">
+		<command><![CDATA[systemctl list-unit-files]]></command>
+		<value><![CDATA[]]></value>
+	</item>
+	<item flag="33">
+		<command><![CDATA[cat /etc/ntp.conf |grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[server time.asia.apple.com]]></value>
+	</item>
+	<item flag="34">
+		<command><![CDATA[cat /etc/resolv.conf]]></command>
+		<value><![CDATA[#
+# Mac OS X Notice
+#
+# This file is not used by the host name and address resolution
+# or the DNS query routing mechanisms used by most processes on
+# this Mac OS X system.
+#
+# This file is automatically generated.
+#
+nameserver 192.168.10.1]]></value>
+	</item>
+</result>
