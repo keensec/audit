@@ -15,6 +15,7 @@ $pre_cmd{1} = "cat /etc/shadow | grep -v -e '^ *#' -e '^\$'";
 push(@array_pre_flag, 'id');
 push(@array_pre_flag, 1);
 #end
+#test
 
 sub add_item{
     my ($string, $flag, $value)= @_;
