@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+	<item flag="id">
+		<command><![CDATA[command]]></command>
+		<value><![CDATA[result]]></value>
+	</item>
+	<item flag="1">
+		<command><![CDATA[cat /etc/shadow | grep -v -e '^ *#' -e '^$']]></command>
+		<value><![CDATA[]]></value>
+	</item>
+</result>
