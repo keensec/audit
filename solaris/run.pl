@@ -10,10 +10,54 @@ if($ARGC gt 0){
 # 请将bash命令放于 " 符号间.
 # 请注意双引号" 和 $ 符号的转义.
 $pre_cmd{'id'} = "echo result";
-$pre_cmd{1} = "cat /etc/shadow | grep -v -e '^ *#' -e '^\$'";
+$pre_cmd{1} = "ps -elf|grep ssh";
+$pre_cmd{2} = "cat /etc/passwd | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{3} = "/usr/sbin/eeprom";
+$pre_cmd{4} = "cat /etc/passwd| grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{5} = "cat /etc/passwd;cat /etc/shadow  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{6} = "cat /etc/passwd| grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{7} = "cat /etc/ssh/sshd_config | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{9} = "cat /etc/default/passwd  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{10} = "cat /etc/security/policy.conf  | grep -v  '^ *#' | grep -v '^\$'; cat /etc/default/login  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{11} = "cat /etc/default/passwd  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{12} = "ls -l /etc/passwd;ls -l /etc/shadow;ls -l /etc/group";
+$pre_cmd{13} = "cat /etc/default/login | grep -v  '^ *#' | grep -v '^\$';cat /etc/profile  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{14} = "cat /etc/syslog.conf | grep -v  '^ *#' | grep -v '^\$';last /var/adm/wtmpx";
+$pre_cmd{16} = "cat /etc/default/su | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{17} = "more /etc/default/cron| grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{19} = "ls –l /var/adm";
+$pre_cmd{21} = "cat /etc/syslog.conf  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{23} = "cat /etc/default/login | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{25} = "cat /etc/hosts.allow | grep -v  '^ *#' | grep -v '^\$';cat /etc/hosts.deny  | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{27} = "ps -elf";
+$pre_cmd{28} = "cat /etc/inet/ntp.conf | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{29} = "cat /etc/resolv.conf | grep -v  '^ *#' | grep -v '^\$'";
+$pre_cmd{30} = "cat /etc/system | grep -v  '^ *#' | grep -v '^\$'";
 
 push(@array_pre_flag, 'id');
 push(@array_pre_flag, 1);
+push(@array_pre_flag, 2);
+push(@array_pre_flag, 3);
+push(@array_pre_flag, 4);
+push(@array_pre_flag, 5);
+push(@array_pre_flag, 6);
+push(@array_pre_flag, 7);
+push(@array_pre_flag, 9);
+push(@array_pre_flag, 10);
+push(@array_pre_flag, 11);
+push(@array_pre_flag, 12);
+push(@array_pre_flag, 13);
+push(@array_pre_flag, 14);
+push(@array_pre_flag, 16);
+push(@array_pre_flag, 17);
+push(@array_pre_flag, 19);
+push(@array_pre_flag, 21);
+push(@array_pre_flag, 23);
+push(@array_pre_flag, 25);
+push(@array_pre_flag, 27);
+push(@array_pre_flag, 28);
+push(@array_pre_flag, 29);
+push(@array_pre_flag, 30);
 #end
 
 sub add_item{
