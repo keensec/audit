@@ -1,6 +1,6 @@
 # USAGE
-- 执行 ` sudo ./run.sh xml ` 生成xml文件
-- 执行 ` sudo ./run.sh excel ` 生成excel文件
+- 执行 ` sudo sh run.sh xml ` 生成xml文件
+- 执行 ` sudo sh run.sh excel ` 生成excel文件
 
 # NOTE
 - 不同文件夹代表不同的核查项

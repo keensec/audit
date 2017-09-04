@@ -99,6 +99,7 @@ sub add_item{
 sub generate_xml{
     my $xml_string = "";
     $xml_string .='<?xml version="1.0" encoding="UTF-8"?>'."\n";
+    $xml_string .='<?xml-stylesheet type="text/xsl" href="result.xsl"?>'."\n";
     $xml_string .= '<result>'."\n";
     foreach $key (@array_pre_flag){
         $command = $pre_cmd{$key};
