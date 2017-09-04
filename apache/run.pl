@@ -71,6 +71,7 @@ push(@array_pre_flag, 13);
 push(@array_pre_flag, 14);
 push(@array_pre_flag, 15);
 #end
+#test
 
 sub add_item{
     my ($string, $flag, $value)= @_;
