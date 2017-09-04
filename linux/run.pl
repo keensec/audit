@@ -34,7 +34,7 @@ $pre_cmd{20} = "cat /etc/syslog.conf";
 $pre_cmd{21} = "for i in `cat /etc/passwd | grep sh\$ | awk -F: '{print \$1}'`; do cd ~\$i ;echo -e \"\$i 的history文件\n\";cat .bash_history | tail -n 100;cat .sh_history| tail -n 100;cat .csh_history | tail -n 100; echo -e \"\n\n\"; done";
 $pre_cmd{22} = "cat /var/log/secure";
 $pre_cmd{23} = "who /var/log/wtmp";
-$pre_cmd{24} = "cat /var/log/messages";
+$pre_cmd{24} = "cat /var/log/messages | tail -n 200 ";
 $pre_cmd{25} = "echo 待定";
 $pre_cmd{26} = "ls -l /var/log";
 $pre_cmd{27} = "echo 待定";
@@ -99,7 +99,7 @@ sub add_item{
 sub generate_xml{
     my $xml_string = "";
     $xml_string .='<?xml version="1.0" encoding="UTF-8"?>'."\n";
-    $xml_string .='<?xml-stylesheet type="text/xsl" href="result.xsl"?>'."\n";
+    $xml_string .='<?xml-stylesheet type="text/xsl" href="xml.xsl"?>'."\n";
     $xml_string .= '<result>'."\n";
     foreach $key (@array_pre_flag){
         $command = $pre_cmd{$key};

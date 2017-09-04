@@ -8,7 +8,6 @@ if($ARGC gt 0){
     exit;}
 
 print "请手动确认 apache 配置主文件地址和 documentRoot 对应目录地址\n";
-`sleep 1`;
 print "apache2配置文件的路径是:\n1:/etc/apache2/apache2.conf\n2:/etc/httpd/conf/httpd.conf\n3:手动输入\n";
 print "请输入序号(1 or 2 or 3):";
 $tmp1 = <STDIN>;
@@ -23,7 +22,8 @@ if ( $tmp1 eq 1){
 }
 chomp $conf;
 print "apache2 虚拟主机目录是:\n1:/var/www\n2:手动输入\n";
-$tmp2 = <STDIN>;
+    print "请输入apache配置文件的地址:";
+    $tmp2 = <STDIN>;
 chomp $tmp2;
 if ($tmp2 eq 1){
     $host = "/var/www";
@@ -89,7 +89,7 @@ sub add_item{
 sub generate_xml{
     my $xml_string = "";
     $xml_string .='<?xml version="1.0" encoding="UTF-8"?>'."\n";
-    $xml_string .='<?xml-stylesheet type="text/xsl" href="result.xsl"?>'."\n";
+    $xml_string .='<?xml-stylesheet type="text/xsl" href="xml.xsl"?>'."\n";
     $xml_string .= '<result>'."\n";
     foreach $key (@array_pre_flag){
         $value = $pre_cmd{$key};

@@ -8,8 +8,8 @@
     <h3>ID:<xsl:value-of select="@flag" /></h3>
     <p><strong>command:</strong><br />
     <xsl:value-of select="command" /></p>
-    <p><strong>value:</strong><br />
-    <xsl:value-of select="value" /></p>
+    <p><strong>value:</strong>
+        <pre><xsl:value-of select="value" /></pre></p>
 </div>
 </xsl:for-each>
 </body>
